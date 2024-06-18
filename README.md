@@ -1,2 +1,2 @@
 # GROTO
-The code will come soon.
+The code is coming soon.
