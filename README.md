@@ -1,5 +1,6 @@
 # Multi-Granularity Class Prototype Topology Distillation for Class-Incremental  Source-Free Unsupervised Domain Adaptation
 [CVPR 2025] Official implementation of paper "Multi-Granularity Class Prototype Topology Distillation for Class-Incremental  Source-Free Unsupervised Domain Adaptation"
+![1748399243391](https://github.com/user-attachments/assets/6f019bcc-2f37-4826-a967-2525b2cb8f63)
 
 # Data Preparation
 The files of data list and their corresponding labels have been put in the directory ./data_splits, and the imagenet_list.txt can be downloaded at https://drive.google.com/drive/folders/1MGFO41tVIsG1ckQmh0t3q9kJjmnXM2i2?usp=sharing.
