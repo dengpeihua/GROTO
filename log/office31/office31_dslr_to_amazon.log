@@ -1,0 +1,1141 @@
+2025-06-05 18:58:02,774 - INFO - Logging initialized. Log file: office31_dslr_to_amazon.log
+2025-06-05 18:58:02,836 - INFO - Using 1 GPU(s)
+2025-06-05 18:58:02,836 - INFO - Source domain: dslr, Target domain: amazon
+2025-06-05 18:58:05,510 - INFO - Starting incremental learning...
+2025-06-05 18:58:05,510 - INFO - Starting incremental stage 1/3
+2025-06-05 18:58:12,589 - INFO - Average relation matrix mean: 0.0323
+2025-06-05 18:58:12,593 - INFO - Shared classes: [0, 1, 2, 3, 5, 6, 7, 8, 9, 13]
+2025-06-05 18:58:12,593 - INFO - Classes meeting probability condition: [0, 1, 2, 3, 5, 6, 7, 8, 9, 13]
+2025-06-05 18:58:12,593 - INFO - Classes meeting similarity condition: [0, 1, 2, 3, 5, 6, 7, 8, 9]
+2025-06-05 18:58:13,643 - INFO - Starting training for stage 1
+2025-06-05 18:58:13,643 - INFO - Epoch 1/30
+2025-06-05 18:58:19,470 - INFO - Initial accuracy: 0.8501
+2025-06-05 18:58:19,489 - INFO - Unique labels before 5th iteration: tensor([ 0,  1,  2,  3,  5,  6,  7,  8,  9, 13], device='cuda:0')
+2025-06-05 18:58:19,716 - INFO - Updated accuracy: 87.56%
+2025-06-05 18:58:36,757 - INFO - Epoch 1: ce loss: 0.711, con loss: 0.344, ptd loss: 0.976, rep loss: 0.000
+2025-06-05 18:58:36,758 - INFO - Stage 1, Epoch 1: Accuracy list: [0.978 0.988 0.986 0.866 0.    0.968 0.945 0.938 0.948 0.642]
+2025-06-05 18:58:36,758 - INFO - Stage 1, Epoch 1: Mean accuracy: 0.826
+2025-06-05 18:58:36,758 - INFO - Stage 1, Epoch 1: Top ten classes mean accuracy: 82.590
+2025-06-05 18:58:42,636 - INFO - Initial accuracy: 0.8841
+2025-06-05 18:58:42,653 - INFO - Unique labels before 5th iteration: tensor([0, 1, 2, 3, 5, 6, 7, 8, 9], device='cuda:0')
+2025-06-05 18:58:42,807 - INFO - Updated accuracy: 89.56%
+2025-06-05 18:58:46,021 - INFO - Total mean accuracy: 87.985
+2025-06-05 18:58:50,814 - INFO - Epoch 2/30
+2025-06-05 18:58:57,097 - INFO - Initial accuracy: 0.8513
+2025-06-05 18:58:57,187 - INFO - Unique labels before 5th iteration: tensor([ 0,  1,  2,  3,  5,  6,  7,  8,  9, 13], device='cuda:0')
+2025-06-05 18:58:57,357 - INFO - Updated accuracy: 87.80%
+2025-06-05 18:59:14,842 - INFO - Epoch 2: ce loss: 0.548, con loss: 0.348, ptd loss: 0.964, rep loss: 0.000
+2025-06-05 18:59:14,842 - INFO - Stage 1, Epoch 2: Accuracy list: [0.989 0.976 0.986 0.878 0.    0.968 0.945 0.948 0.948 0.765]
+2025-06-05 18:59:14,843 - INFO - Stage 1, Epoch 2: Mean accuracy: 0.840
+2025-06-05 18:59:14,843 - INFO - Stage 1, Epoch 2: Top ten classes mean accuracy: 84.030
+2025-06-05 18:59:21,472 - INFO - Initial accuracy: 0.9023
+2025-06-05 18:59:21,491 - INFO - Unique labels before 5th iteration: tensor([0, 1, 2, 3, 5, 6, 7, 8, 9], device='cuda:0')
+2025-06-05 18:59:21,708 - INFO - Updated accuracy: 89.62%
+2025-06-05 18:59:25,178 - INFO - Total mean accuracy: 89.442
+2025-06-05 18:59:29,881 - INFO - Epoch 3/30
+2025-06-05 18:59:35,799 - INFO - Initial accuracy: 0.8465
+2025-06-05 18:59:35,817 - INFO - Unique labels before 5th iteration: tensor([ 0,  1,  2,  3,  5,  6,  7,  8,  9, 13], device='cuda:0')
+2025-06-05 18:59:36,016 - INFO - Updated accuracy: 87.26%
+2025-06-05 18:59:53,277 - INFO - Epoch 3: ce loss: 0.383, con loss: 0.320, ptd loss: 0.956, rep loss: 0.000
+2025-06-05 18:59:53,278 - INFO - Stage 1, Epoch 3: Accuracy list: [0.989 1.    1.    0.89  0.    0.968 0.945 0.928 0.938 0.778]
+2025-06-05 18:59:53,278 - INFO - Stage 1, Epoch 3: Mean accuracy: 0.844
+2025-06-05 18:59:53,278 - INFO - Stage 1, Epoch 3: Top ten classes mean accuracy: 84.360
+2025-06-05 18:59:59,702 - INFO - Initial accuracy: 0.8968
+2025-06-05 18:59:59,720 - INFO - Unique labels before 5th iteration: tensor([ 0,  1,  2,  3,  5,  6,  7,  8,  9, 13], device='cuda:0')
+2025-06-05 18:59:59,785 - INFO - Updated accuracy: 88.59%
+2025-06-05 19:00:03,183 - INFO - Total mean accuracy: 89.684
+2025-06-05 19:00:07,806 - INFO - Epoch 4/30
+2025-06-05 19:00:13,619 - INFO - Initial accuracy: 0.8465
+2025-06-05 19:00:13,638 - INFO - Unique labels before 5th iteration: tensor([ 0,  1,  2,  3,  5,  6,  7,  8,  9, 13], device='cuda:0')
+2025-06-05 19:00:13,807 - INFO - Updated accuracy: 87.38%
+2025-06-05 19:00:30,972 - INFO - Epoch 4: ce loss: 0.311, con loss: 0.260, ptd loss: 0.950, rep loss: 0.000
+2025-06-05 19:00:30,973 - INFO - Stage 1, Epoch 4: Accuracy list: [0.989 0.988 1.    0.841 0.    0.968 0.945 0.948 0.959 0.741]
+2025-06-05 19:00:30,974 - INFO - Stage 1, Epoch 4: Mean accuracy: 0.838
+2025-06-05 19:00:30,974 - INFO - Stage 1, Epoch 4: Top ten classes mean accuracy: 83.790
+2025-06-05 19:00:37,157 - INFO - Initial accuracy: 0.8932
+2025-06-05 19:00:37,176 - INFO - Unique labels before 5th iteration: tensor([ 0,  1,  2,  3,  5,  6,  7,  8,  9, 13], device='cuda:0')
+2025-06-05 19:00:37,276 - INFO - Updated accuracy: 88.41%
+2025-06-05 19:00:40,756 - INFO - Total mean accuracy: 89.199
+2025-06-05 19:00:46,416 - INFO - Epoch 5/30
+2025-06-05 19:00:52,411 - INFO - Initial accuracy: 0.8538
+2025-06-05 19:00:52,428 - INFO - Unique labels before 5th iteration: tensor([ 0,  1,  2,  3,  5,  6,  7,  8,  9, 13], device='cuda:0')
+2025-06-05 19:00:52,621 - INFO - Updated accuracy: 88.47%
+2025-06-05 19:01:09,882 - INFO - Epoch 5: ce loss: 0.190, con loss: 0.267, ptd loss: 0.944, rep loss: 0.000
+2025-06-05 19:01:09,883 - INFO - Stage 1, Epoch 5: Accuracy list: [0.989 1.    1.    0.817 0.    0.968 0.945 0.938 0.948 0.741]
+2025-06-05 19:01:09,883 - INFO - Stage 1, Epoch 5: Mean accuracy: 0.835
+2025-06-05 19:01:09,883 - INFO - Stage 1, Epoch 5: Top ten classes mean accuracy: 83.460
+2025-06-05 19:01:16,335 - INFO - Initial accuracy: 0.8914
+2025-06-05 19:01:16,352 - INFO - Unique labels before 5th iteration: tensor([ 0,  1,  2,  3,  5,  6,  7,  8,  9, 13], device='cuda:0')
+2025-06-05 19:01:16,489 - INFO - Updated accuracy: 88.96%
+2025-06-05 19:01:19,771 - INFO - Total mean accuracy: 88.835
+2025-06-05 19:01:24,583 - INFO - Epoch 6/30
+2025-06-05 19:01:30,833 - INFO - Initial accuracy: 0.8914
+2025-06-05 19:01:31,224 - INFO - Updated accuracy: 89.20%
+2025-06-05 19:01:45,280 - INFO - Historical prototype classes: []
+2025-06-05 19:01:45,280 - INFO - Current prototype classes: [0, 1, 2, 3, 5, 6, 7, 8, 9, 13]
+2025-06-05 19:01:48,805 - INFO - Constructing class 0 exemplar
+2025-06-05 19:01:52,712 - INFO - Constructing class 1 exemplar
+2025-06-05 19:01:56,875 - INFO - Constructing class 2 exemplar
+2025-06-05 19:02:00,658 - INFO - Constructing class 3 exemplar
+2025-06-05 19:02:04,459 - INFO - Constructing class 5 exemplar
+2025-06-05 19:02:08,488 - INFO - Constructing class 6 exemplar
+2025-06-05 19:02:12,114 - INFO - Constructing class 7 exemplar
+2025-06-05 19:02:15,779 - INFO - Constructing class 8 exemplar
+2025-06-05 19:02:19,574 - INFO - Constructing class 9 exemplar
+2025-06-05 19:02:23,728 - INFO - Constructing class 13 exemplar
+2025-06-05 19:02:24,176 - INFO - Updated prototype count: 10
+2025-06-05 19:02:27,791 - INFO - Epoch 6: ce loss: 0.198, con loss: 0.345, ptd loss: 0.938, rep loss: 0.000
+2025-06-05 19:02:27,792 - INFO - Stage 1, Epoch 6: Accuracy list: [0.989 0.988 1.    0.902 0.    0.968 0.967 0.918 0.948 0.79 ]
+2025-06-05 19:02:27,792 - INFO - Stage 1, Epoch 6: Mean accuracy: 0.847
+2025-06-05 19:02:27,792 - INFO - Stage 1, Epoch 6: Top ten classes mean accuracy: 84.700
+2025-06-05 19:02:33,834 - INFO - Initial accuracy: 0.8968
+2025-06-05 19:02:34,272 - INFO - Updated accuracy: 89.50%
+2025-06-05 19:02:37,844 - INFO - Total mean accuracy: 90.049
+2025-06-05 19:02:42,906 - INFO - Epoch 7/30
+2025-06-05 19:02:49,306 - INFO - Initial accuracy: 0.9005
+2025-06-05 19:02:49,793 - INFO - Updated accuracy: 89.75%
+2025-06-05 19:03:13,412 - INFO - Epoch 7: ce loss: 0.469, con loss: 0.105, ptd loss: 0.933, rep loss: 0.336
+2025-06-05 19:03:13,412 - INFO - Stage 1, Epoch 7: Accuracy list: [0.989 1.    1.    0.939 0.    0.957 0.967 0.907 0.918 0.79 ]
+2025-06-05 19:03:13,412 - INFO - Stage 1, Epoch 7: Mean accuracy: 0.847
+2025-06-05 19:03:13,413 - INFO - Stage 1, Epoch 7: Top ten classes mean accuracy: 84.670
+2025-06-05 19:03:19,555 - INFO - Initial accuracy: 0.9029
+2025-06-05 19:03:19,977 - INFO - Updated accuracy: 89.62%
+2025-06-05 19:03:23,745 - INFO - Total mean accuracy: 89.927
+2025-06-05 19:03:28,647 - INFO - Epoch 8/30
+2025-06-05 19:03:34,764 - INFO - Initial accuracy: 0.9005
+2025-06-05 19:03:35,166 - INFO - Updated accuracy: 89.75%
+2025-06-05 19:03:59,451 - INFO - Epoch 8: ce loss: 0.050, con loss: 0.220, ptd loss: 0.928, rep loss: 0.430
+2025-06-05 19:03:59,452 - INFO - Stage 1, Epoch 8: Accuracy list: [0.978 1.    1.    0.939 0.    0.968 0.967 0.887 0.948 0.815]
+2025-06-05 19:03:59,452 - INFO - Stage 1, Epoch 8: Mean accuracy: 0.850
+2025-06-05 19:03:59,452 - INFO - Stage 1, Epoch 8: Top ten classes mean accuracy: 85.020
+2025-06-05 19:04:05,678 - INFO - Initial accuracy: 0.9005
+2025-06-05 19:04:06,093 - INFO - Updated accuracy: 89.26%
+2025-06-05 19:04:09,802 - INFO - Total mean accuracy: 90.291
+2025-06-05 19:04:15,343 - INFO - Epoch 9/30
+2025-06-05 19:04:21,273 - INFO - Initial accuracy: 0.9017
+2025-06-05 19:04:21,676 - INFO - Updated accuracy: 89.75%
+2025-06-05 19:04:46,102 - INFO - Epoch 9: ce loss: 0.209, con loss: 0.071, ptd loss: 0.922, rep loss: 0.303
+2025-06-05 19:04:46,103 - INFO - Stage 1, Epoch 9: Accuracy list: [0.978 1.    1.    0.939 0.    0.957 0.967 0.897 0.969 0.802]
+2025-06-05 19:04:46,103 - INFO - Stage 1, Epoch 9: Mean accuracy: 0.851
+2025-06-05 19:04:46,103 - INFO - Stage 1, Epoch 9: Top ten classes mean accuracy: 85.090
+2025-06-05 19:04:52,767 - INFO - Initial accuracy: 0.9066
+2025-06-05 19:04:53,174 - INFO - Updated accuracy: 90.11%
+2025-06-05 19:04:56,732 - INFO - Total mean accuracy: 90.413
+2025-06-05 19:05:01,942 - INFO - Epoch 10/30
+2025-06-05 19:05:07,807 - INFO - Initial accuracy: 0.9035
+2025-06-05 19:05:08,215 - INFO - Updated accuracy: 89.87%
+2025-06-05 19:05:33,060 - INFO - Epoch 10: ce loss: 0.021, con loss: 0.072, ptd loss: 0.918, rep loss: 0.386
+2025-06-05 19:05:33,061 - INFO - Stage 1, Epoch 10: Accuracy list: [0.978 1.    1.    0.927 0.    0.968 0.967 0.887 0.969 0.802]
+2025-06-05 19:05:33,061 - INFO - Stage 1, Epoch 10: Mean accuracy: 0.850
+2025-06-05 19:05:33,061 - INFO - Stage 1, Epoch 10: Top ten classes mean accuracy: 84.980
+2025-06-05 19:05:39,326 - INFO - Initial accuracy: 0.9029
+2025-06-05 19:05:39,747 - INFO - Updated accuracy: 89.99%
+2025-06-05 19:05:43,348 - INFO - Total mean accuracy: 90.291
+2025-06-05 19:05:48,103 - INFO - Epoch 11/30
+2025-06-05 19:05:54,021 - INFO - Initial accuracy: 0.9053
+2025-06-05 19:05:54,436 - INFO - Updated accuracy: 89.99%
+2025-06-05 19:06:15,745 - INFO - Historical prototype classes: [0, 1, 2, 3, 5, 6, 7, 8, 9, 13]
+2025-06-05 19:06:15,745 - INFO - Current prototype classes: [0, 1, 2, 3, 5, 6, 7, 8, 9, 13]
+2025-06-05 19:06:18,759 - INFO - Constructing class 0 exemplar
+2025-06-05 19:06:22,774 - INFO - Constructing class 3 exemplar
+2025-06-05 19:06:23,525 - INFO - Updated prototype count: 10
+2025-06-05 19:06:27,110 - INFO - Epoch 11: ce loss: 0.098, con loss: 0.047, ptd loss: 0.913, rep loss: 0.500
+2025-06-05 19:06:27,111 - INFO - Stage 1, Epoch 11: Accuracy list: [0.978 1.    1.    0.927 0.    0.968 0.967 0.876 0.969 0.79 ]
+2025-06-05 19:06:27,111 - INFO - Stage 1, Epoch 11: Mean accuracy: 0.848
+2025-06-05 19:06:27,111 - INFO - Stage 1, Epoch 11: Top ten classes mean accuracy: 84.750
+2025-06-05 19:06:33,191 - INFO - Initial accuracy: 0.9053
+2025-06-05 19:06:33,619 - INFO - Updated accuracy: 90.11%
+2025-06-05 19:06:37,249 - INFO - Total mean accuracy: 90.049
+2025-06-05 19:06:42,091 - INFO - Epoch 12/30
+2025-06-05 19:06:48,295 - INFO - Initial accuracy: 0.9029
+2025-06-05 19:06:48,727 - INFO - Updated accuracy: 89.50%
+2025-06-05 19:07:13,053 - INFO - Epoch 12: ce loss: 0.026, con loss: 0.187, ptd loss: 0.908, rep loss: 0.321
+2025-06-05 19:07:13,054 - INFO - Stage 1, Epoch 12: Accuracy list: [0.978 1.    1.    0.927 0.    0.968 0.967 0.876 0.969 0.79 ]
+2025-06-05 19:07:13,054 - INFO - Stage 1, Epoch 12: Mean accuracy: 0.848
+2025-06-05 19:07:13,054 - INFO - Stage 1, Epoch 12: Top ten classes mean accuracy: 84.750
+2025-06-05 19:07:19,536 - INFO - Initial accuracy: 0.9035
+2025-06-05 19:07:19,961 - INFO - Updated accuracy: 90.23%
+2025-06-05 19:07:23,432 - INFO - Total mean accuracy: 90.049
+2025-06-05 19:07:28,933 - INFO - Epoch 13/30
+2025-06-05 19:07:35,147 - INFO - Initial accuracy: 0.9035
+2025-06-05 19:07:35,546 - INFO - Updated accuracy: 89.68%
+2025-06-05 19:07:59,828 - INFO - Epoch 13: ce loss: 0.054, con loss: 0.230, ptd loss: 0.903, rep loss: 0.510
+2025-06-05 19:07:59,830 - INFO - Stage 1, Epoch 13: Accuracy list: [0.978 1.    1.    0.927 0.    0.979 0.967 0.887 0.969 0.79 ]
+2025-06-05 19:07:59,830 - INFO - Stage 1, Epoch 13: Mean accuracy: 0.850
+2025-06-05 19:07:59,830 - INFO - Stage 1, Epoch 13: Top ten classes mean accuracy: 84.970
+2025-06-05 19:08:06,014 - INFO - Initial accuracy: 0.9011
+2025-06-05 19:08:06,436 - INFO - Updated accuracy: 89.87%
+2025-06-05 19:08:09,951 - INFO - Total mean accuracy: 90.291
+2025-06-05 19:08:14,810 - INFO - Epoch 14/30
+2025-06-05 19:08:21,176 - INFO - Initial accuracy: 0.9047
+2025-06-05 19:08:21,584 - INFO - Updated accuracy: 90.05%
+2025-06-05 19:08:46,191 - INFO - Epoch 14: ce loss: 0.050, con loss: 0.167, ptd loss: 0.899, rep loss: 0.216
+2025-06-05 19:08:46,192 - INFO - Stage 1, Epoch 14: Accuracy list: [0.978 1.    1.    0.927 0.    0.968 0.967 0.876 0.969 0.79 ]
+2025-06-05 19:08:46,192 - INFO - Stage 1, Epoch 14: Mean accuracy: 0.848
+2025-06-05 19:08:46,192 - INFO - Stage 1, Epoch 14: Top ten classes mean accuracy: 84.750
+2025-06-05 19:08:52,902 - INFO - Initial accuracy: 0.9041
+2025-06-05 19:08:53,322 - INFO - Updated accuracy: 90.11%
+2025-06-05 19:08:56,901 - INFO - Total mean accuracy: 90.049
+2025-06-05 19:09:02,129 - INFO - Epoch 15/30
+2025-06-05 19:09:08,064 - INFO - Initial accuracy: 0.9029
+2025-06-05 19:09:08,483 - INFO - Updated accuracy: 90.05%
+2025-06-05 19:09:33,417 - INFO - Epoch 15: ce loss: 0.062, con loss: 0.039, ptd loss: 0.895, rep loss: 0.515
+2025-06-05 19:09:33,418 - INFO - Stage 1, Epoch 15: Accuracy list: [0.978 1.    1.    0.927 0.    0.968 0.967 0.887 0.969 0.79 ]
+2025-06-05 19:09:33,418 - INFO - Stage 1, Epoch 15: Mean accuracy: 0.849
+2025-06-05 19:09:33,418 - INFO - Stage 1, Epoch 15: Top ten classes mean accuracy: 84.860
+2025-06-05 19:09:39,565 - INFO - Initial accuracy: 0.9011
+2025-06-05 19:09:39,998 - INFO - Updated accuracy: 89.87%
+2025-06-05 19:09:43,343 - INFO - Total mean accuracy: 90.170
+2025-06-05 19:09:48,206 - INFO - Epoch 16/30
+2025-06-05 19:09:54,009 - INFO - Initial accuracy: 0.9041
+2025-06-05 19:09:54,414 - INFO - Updated accuracy: 89.99%
+2025-06-05 19:10:18,499 - INFO - Epoch 16: ce loss: 0.197, con loss: 0.034, ptd loss: 0.890, rep loss: 0.471
+2025-06-05 19:10:18,500 - INFO - Stage 1, Epoch 16: Accuracy list: [0.978 1.    1.    0.927 0.    0.968 0.967 0.887 0.969 0.79 ]
+2025-06-05 19:10:18,500 - INFO - Stage 1, Epoch 16: Mean accuracy: 0.849
+2025-06-05 19:10:18,500 - INFO - Stage 1, Epoch 16: Top ten classes mean accuracy: 84.860
+2025-06-05 19:10:24,629 - INFO - Initial accuracy: 0.9023
+2025-06-05 19:10:25,048 - INFO - Updated accuracy: 90.05%
+2025-06-05 19:10:28,639 - INFO - Total mean accuracy: 90.170
+2025-06-05 19:10:33,947 - INFO - Epoch 17/30
+2025-06-05 19:10:40,197 - INFO - Initial accuracy: 0.9017
+2025-06-05 19:10:40,626 - INFO - Updated accuracy: 89.81%
+2025-06-05 19:11:06,371 - INFO - Epoch 17: ce loss: 0.072, con loss: 0.119, ptd loss: 0.886, rep loss: 0.352
+2025-06-05 19:11:06,372 - INFO - Stage 1, Epoch 17: Accuracy list: [0.978 1.    1.    0.927 0.    0.968 0.967 0.876 0.969 0.79 ]
+2025-06-05 19:11:06,372 - INFO - Stage 1, Epoch 17: Mean accuracy: 0.848
+2025-06-05 19:11:06,372 - INFO - Stage 1, Epoch 17: Top ten classes mean accuracy: 84.750
+2025-06-05 19:11:13,048 - INFO - Initial accuracy: 0.9035
+2025-06-05 19:11:13,463 - INFO - Updated accuracy: 90.17%
+2025-06-05 19:11:16,891 - INFO - Total mean accuracy: 90.049
+2025-06-05 19:11:21,935 - INFO - Epoch 18/30
+2025-06-05 19:11:27,847 - INFO - Initial accuracy: 0.9041
+2025-06-05 19:11:28,259 - INFO - Updated accuracy: 89.93%
+2025-06-05 19:11:53,010 - INFO - Epoch 18: ce loss: 0.026, con loss: 0.058, ptd loss: 0.882, rep loss: 0.449
+2025-06-05 19:11:53,011 - INFO - Stage 1, Epoch 18: Accuracy list: [0.978 1.    1.    0.927 0.    0.979 0.967 0.866 0.969 0.79 ]
+2025-06-05 19:11:53,011 - INFO - Stage 1, Epoch 18: Mean accuracy: 0.848
+2025-06-05 19:11:53,011 - INFO - Stage 1, Epoch 18: Top ten classes mean accuracy: 84.760
+2025-06-05 19:11:59,131 - INFO - Initial accuracy: 0.9029
+2025-06-05 19:11:59,545 - INFO - Updated accuracy: 89.81%
+2025-06-05 19:12:03,444 - INFO - Total mean accuracy: 90.049
+2025-06-05 19:12:08,192 - INFO - Epoch 19/30
+2025-06-05 19:12:14,339 - INFO - Initial accuracy: 0.9035
+2025-06-05 19:12:14,747 - INFO - Updated accuracy: 90.23%
+2025-06-05 19:12:39,093 - INFO - Epoch 19: ce loss: 0.226, con loss: 0.073, ptd loss: 0.878, rep loss: 0.386
+2025-06-05 19:12:39,094 - INFO - Stage 1, Epoch 19: Accuracy list: [0.978 1.    1.    0.927 0.    0.968 0.967 0.856 0.969 0.79 ]
+2025-06-05 19:12:39,094 - INFO - Stage 1, Epoch 19: Mean accuracy: 0.846
+2025-06-05 19:12:39,094 - INFO - Stage 1, Epoch 19: Top ten classes mean accuracy: 84.550
+2025-06-05 19:12:45,189 - INFO - Initial accuracy: 0.9023
+2025-06-05 19:12:45,613 - INFO - Updated accuracy: 89.87%
+2025-06-05 19:12:49,132 - INFO - Total mean accuracy: 89.806
+2025-06-05 19:12:54,071 - INFO - Epoch 20/30
+2025-06-05 19:12:59,887 - INFO - Initial accuracy: 0.9011
+2025-06-05 19:13:00,292 - INFO - Updated accuracy: 89.87%
+2025-06-05 19:13:24,757 - INFO - Epoch 20: ce loss: 0.021, con loss: 0.115, ptd loss: 0.874, rep loss: 0.195
+2025-06-05 19:13:24,758 - INFO - Stage 1, Epoch 20: Accuracy list: [0.978 1.    1.    0.927 0.    0.968 0.967 0.856 0.969 0.79 ]
+2025-06-05 19:13:24,759 - INFO - Stage 1, Epoch 20: Mean accuracy: 0.846
+2025-06-05 19:13:24,759 - INFO - Stage 1, Epoch 20: Top ten classes mean accuracy: 84.550
+2025-06-05 19:13:31,084 - INFO - Initial accuracy: 0.9035
+2025-06-05 19:13:31,499 - INFO - Updated accuracy: 90.05%
+2025-06-05 19:13:35,052 - INFO - Total mean accuracy: 89.806
+2025-06-05 19:13:40,642 - INFO - Epoch 21/30
+2025-06-05 19:13:46,491 - INFO - Initial accuracy: 0.9017
+2025-06-05 19:13:46,898 - INFO - Updated accuracy: 90.17%
+2025-06-05 19:14:07,637 - INFO - Historical prototype classes: [0, 1, 2, 3, 5, 6, 7, 8, 9, 13]
+2025-06-05 19:14:07,638 - INFO - Current prototype classes: [0, 1, 2, 3, 5, 6, 7, 8, 9, 13]
+2025-06-05 19:14:10,876 - INFO - Constructing class 0 exemplar
+2025-06-05 19:14:15,230 - INFO - Constructing class 3 exemplar
+2025-06-05 19:14:16,018 - INFO - Updated prototype count: 10
+2025-06-05 19:14:19,313 - INFO - Epoch 21: ce loss: 0.052, con loss: 0.044, ptd loss: 0.870, rep loss: 0.432
+2025-06-05 19:14:19,314 - INFO - Stage 1, Epoch 21: Accuracy list: [0.978 1.    1.    0.927 0.    0.979 0.967 0.856 0.969 0.79 ]
+2025-06-05 19:14:19,314 - INFO - Stage 1, Epoch 21: Mean accuracy: 0.847
+2025-06-05 19:14:19,314 - INFO - Stage 1, Epoch 21: Top ten classes mean accuracy: 84.660
+2025-06-05 19:14:25,165 - INFO - Initial accuracy: 0.9023
+2025-06-05 19:14:25,625 - INFO - Updated accuracy: 89.81%
+2025-06-05 19:14:28,995 - INFO - Total mean accuracy: 89.927
+2025-06-05 19:14:33,657 - INFO - Epoch 22/30
+2025-06-05 19:14:39,760 - INFO - Initial accuracy: 0.9017
+2025-06-05 19:14:40,208 - INFO - Updated accuracy: 89.99%
+2025-06-05 19:15:04,479 - INFO - Epoch 22: ce loss: 0.032, con loss: 0.047, ptd loss: 0.866, rep loss: 0.577
+2025-06-05 19:15:04,480 - INFO - Stage 1, Epoch 22: Accuracy list: [0.978 1.    1.    0.927 0.    0.979 0.967 0.866 0.969 0.79 ]
+2025-06-05 19:15:04,480 - INFO - Stage 1, Epoch 22: Mean accuracy: 0.848
+2025-06-05 19:15:04,480 - INFO - Stage 1, Epoch 22: Top ten classes mean accuracy: 84.760
+2025-06-05 19:15:10,441 - INFO - Initial accuracy: 0.9017
+2025-06-05 19:15:10,863 - INFO - Updated accuracy: 90.11%
+2025-06-05 19:15:14,203 - INFO - Total mean accuracy: 90.049
+2025-06-05 19:15:18,969 - INFO - Epoch 23/30
+2025-06-05 19:15:25,197 - INFO - Initial accuracy: 0.9029
+2025-06-05 19:15:25,594 - INFO - Updated accuracy: 90.05%
+2025-06-05 19:15:49,852 - INFO - Epoch 23: ce loss: 0.162, con loss: 0.105, ptd loss: 0.863, rep loss: 0.296
+2025-06-05 19:15:49,853 - INFO - Stage 1, Epoch 23: Accuracy list: [0.978 1.    1.    0.927 0.    0.979 0.967 0.866 0.969 0.79 ]
+2025-06-05 19:15:49,853 - INFO - Stage 1, Epoch 23: Mean accuracy: 0.848
+2025-06-05 19:15:49,853 - INFO - Stage 1, Epoch 23: Top ten classes mean accuracy: 84.760
+2025-06-05 19:15:55,888 - INFO - Initial accuracy: 0.9023
+2025-06-05 19:15:56,309 - INFO - Updated accuracy: 89.93%
+2025-06-05 19:15:59,857 - INFO - Total mean accuracy: 90.049
+2025-06-05 19:16:04,553 - INFO - Epoch 24/30
+2025-06-05 19:16:10,349 - INFO - Initial accuracy: 0.9023
+2025-06-05 19:16:10,756 - INFO - Updated accuracy: 90.23%
+2025-06-05 19:16:35,127 - INFO - Epoch 24: ce loss: 0.086, con loss: 0.070, ptd loss: 0.859, rep loss: 0.197
+2025-06-05 19:16:35,128 - INFO - Stage 1, Epoch 24: Accuracy list: [0.978 1.    1.    0.927 0.    0.968 0.967 0.866 0.969 0.79 ]
+2025-06-05 19:16:35,128 - INFO - Stage 1, Epoch 24: Mean accuracy: 0.847
+2025-06-05 19:16:35,128 - INFO - Stage 1, Epoch 24: Top ten classes mean accuracy: 84.650
+2025-06-05 19:16:41,474 - INFO - Initial accuracy: 0.9029
+2025-06-05 19:16:41,888 - INFO - Updated accuracy: 90.05%
+2025-06-05 19:16:45,252 - INFO - Total mean accuracy: 89.927
+2025-06-05 19:16:50,626 - INFO - Epoch 25/30
+2025-06-05 19:16:56,400 - INFO - Initial accuracy: 0.9023
+2025-06-05 19:16:56,815 - INFO - Updated accuracy: 90.11%
+2025-06-05 19:17:21,202 - INFO - Epoch 25: ce loss: 0.065, con loss: 0.092, ptd loss: 0.855, rep loss: 0.264
+2025-06-05 19:17:21,202 - INFO - Stage 1, Epoch 25: Accuracy list: [0.978 1.    1.    0.927 0.    0.968 0.967 0.866 0.969 0.79 ]
+2025-06-05 19:17:21,202 - INFO - Stage 1, Epoch 25: Mean accuracy: 0.847
+2025-06-05 19:17:21,202 - INFO - Stage 1, Epoch 25: Top ten classes mean accuracy: 84.650
+2025-06-05 19:17:27,514 - INFO - Initial accuracy: 0.9035
+2025-06-05 19:17:27,923 - INFO - Updated accuracy: 89.99%
+2025-06-05 19:17:31,320 - INFO - Total mean accuracy: 89.927
+2025-06-05 19:17:36,606 - INFO - Epoch 26/30
+2025-06-05 19:17:42,787 - INFO - Initial accuracy: 0.9017
+2025-06-05 19:17:43,189 - INFO - Updated accuracy: 90.17%
+2025-06-05 19:18:07,833 - INFO - Epoch 26: ce loss: 0.084, con loss: 0.037, ptd loss: 0.852, rep loss: 0.179
+2025-06-05 19:18:07,834 - INFO - Stage 1, Epoch 26: Accuracy list: [0.978 1.    1.    0.927 0.    0.979 0.967 0.866 0.969 0.79 ]
+2025-06-05 19:18:07,834 - INFO - Stage 1, Epoch 26: Mean accuracy: 0.848
+2025-06-05 19:18:07,834 - INFO - Stage 1, Epoch 26: Top ten classes mean accuracy: 84.760
+2025-06-05 19:18:13,839 - INFO - Initial accuracy: 0.9029
+2025-06-05 19:18:14,263 - INFO - Updated accuracy: 89.99%
+2025-06-05 19:18:18,026 - INFO - Total mean accuracy: 90.049
+2025-06-05 19:18:22,174 - INFO - Epoch 27/30
+2025-06-05 19:18:28,071 - INFO - Initial accuracy: 0.9017
+2025-06-05 19:18:28,487 - INFO - Updated accuracy: 90.05%
+2025-06-05 19:18:52,694 - INFO - Epoch 27: ce loss: 0.028, con loss: 0.026, ptd loss: 0.849, rep loss: 0.278
+2025-06-05 19:18:52,695 - INFO - Stage 1, Epoch 27: Accuracy list: [0.978 1.    1.    0.927 0.    0.979 0.967 0.866 0.969 0.79 ]
+2025-06-05 19:18:52,695 - INFO - Stage 1, Epoch 27: Mean accuracy: 0.848
+2025-06-05 19:18:52,695 - INFO - Stage 1, Epoch 27: Top ten classes mean accuracy: 84.760
+2025-06-05 19:18:59,287 - INFO - Initial accuracy: 0.9011
+2025-06-05 19:18:59,703 - INFO - Updated accuracy: 89.93%
+2025-06-05 19:19:03,215 - INFO - Total mean accuracy: 90.049
+2025-06-05 19:19:07,933 - INFO - Epoch 28/30
+2025-06-05 19:19:13,789 - INFO - Initial accuracy: 0.9017
+2025-06-05 19:19:14,189 - INFO - Updated accuracy: 90.05%
+2025-06-05 19:19:39,197 - INFO - Epoch 28: ce loss: 0.030, con loss: 0.032, ptd loss: 0.845, rep loss: 0.274
+2025-06-05 19:19:39,197 - INFO - Stage 1, Epoch 28: Accuracy list: [0.978 1.    1.    0.927 0.    0.979 0.967 0.866 0.969 0.79 ]
+2025-06-05 19:19:39,197 - INFO - Stage 1, Epoch 28: Mean accuracy: 0.848
+2025-06-05 19:19:39,197 - INFO - Stage 1, Epoch 28: Top ten classes mean accuracy: 84.760
+2025-06-05 19:19:45,531 - INFO - Initial accuracy: 0.8999
+2025-06-05 19:19:45,999 - INFO - Updated accuracy: 90.11%
+2025-06-05 19:19:49,371 - INFO - Total mean accuracy: 90.049
+2025-06-05 19:19:54,726 - INFO - Epoch 29/30
+2025-06-05 19:20:00,992 - INFO - Initial accuracy: 0.9005
+2025-06-05 19:20:01,401 - INFO - Updated accuracy: 90.05%
+2025-06-05 19:20:25,861 - INFO - Epoch 29: ce loss: 0.024, con loss: 0.098, ptd loss: 0.842, rep loss: 0.446
+2025-06-05 19:20:25,861 - INFO - Stage 1, Epoch 29: Accuracy list: [0.978 1.    1.    0.927 0.    0.979 0.967 0.866 0.969 0.79 ]
+2025-06-05 19:20:25,861 - INFO - Stage 1, Epoch 29: Mean accuracy: 0.848
+2025-06-05 19:20:25,862 - INFO - Stage 1, Epoch 29: Top ten classes mean accuracy: 84.760
+2025-06-05 19:20:31,923 - INFO - Initial accuracy: 0.9005
+2025-06-05 19:20:32,344 - INFO - Updated accuracy: 90.05%
+2025-06-05 19:20:35,772 - INFO - Total mean accuracy: 90.049
+2025-06-05 19:20:41,587 - INFO - Epoch 30/30
+2025-06-05 19:20:47,493 - INFO - Initial accuracy: 0.9017
+2025-06-05 19:20:47,905 - INFO - Updated accuracy: 90.11%
+2025-06-05 19:21:12,485 - INFO - Epoch 30: ce loss: 0.024, con loss: 0.070, ptd loss: 0.839, rep loss: 0.422
+2025-06-05 19:21:12,485 - INFO - Stage 1, Epoch 30: Accuracy list: [0.978 1.    1.    0.927 0.    0.979 0.967 0.866 0.969 0.79 ]
+2025-06-05 19:21:12,485 - INFO - Stage 1, Epoch 30: Mean accuracy: 0.848
+2025-06-05 19:21:12,485 - INFO - Stage 1, Epoch 30: Top ten classes mean accuracy: 84.760
+2025-06-05 19:21:18,724 - INFO - Initial accuracy: 0.9017
+2025-06-05 19:21:19,141 - INFO - Updated accuracy: 90.11%
+2025-06-05 19:21:22,504 - INFO - Total mean accuracy: 90.049
+2025-06-05 19:21:30,733 - INFO - Stage 1 completed. Best accuracy: 90.413
+2025-06-05 19:21:30,734 - INFO - Starting incremental stage 2/3
+2025-06-05 19:21:37,208 - INFO - Average relation matrix mean: 0.0323
+2025-06-05 19:21:37,211 - INFO - Shared classes: [5, 10, 11, 12, 13, 14, 15, 16, 17, 19, 23, 24]
+2025-06-05 19:21:37,211 - INFO - Classes meeting probability condition: [10, 11, 12, 13, 14, 15, 16, 17, 19, 23, 24]
+2025-06-05 19:21:37,211 - INFO - Classes meeting similarity condition: [5, 10, 11, 12, 13, 14, 15, 16, 17, 19, 24]
+2025-06-05 19:21:37,669 - INFO - Starting training for stage 2
+2025-06-05 19:21:37,670 - INFO - Epoch 1/30
+2025-06-05 19:21:44,184 - INFO - Initial accuracy: 0.7844
+2025-06-05 19:21:44,204 - INFO - Unique labels before 5th iteration: tensor([ 5, 10, 11, 12, 13, 14, 15, 16, 17, 19, 23, 24], device='cuda:0')
+2025-06-05 19:21:44,336 - INFO - Updated accuracy: 81.40%
+2025-06-05 19:22:15,917 - INFO - Epoch 1: ce loss: 0.485, con loss: 0.156, ptd loss: 0.983, rep loss: 0.508
+2025-06-05 19:22:15,918 - INFO - Stage 2, Epoch 1: Accuracy list: [0.978 1.    1.    0.927 0.    0.957 0.967 0.876 0.577 0.79  0.949 0.9
+ 0.91  0.888 0.92  0.949 0.98  0.957 0.    0.895]
+2025-06-05 19:22:15,918 - INFO - Stage 2, Epoch 1: Mean accuracy: 0.821
+2025-06-05 19:22:15,918 - INFO - Stage 2, Epoch 1: Top ten classes mean accuracy: 80.720
+2025-06-05 19:22:22,802 - INFO - Initial accuracy: 0.8476
+2025-06-05 19:22:22,822 - INFO - Unique labels before 5th iteration: tensor([ 5, 10, 11, 12, 13, 14, 15, 16, 17, 19, 24], device='cuda:0')
+2025-06-05 19:22:22,886 - INFO - Updated accuracy: 84.15%
+2025-06-05 19:22:29,393 - INFO - Total mean accuracy: 84.432
+2025-06-05 19:22:29,995 - INFO - Epoch 2/30
+2025-06-05 19:22:37,209 - INFO - Initial accuracy: 0.7875
+2025-06-05 19:22:37,229 - INFO - Unique labels before 5th iteration: tensor([ 5, 10, 11, 12, 13, 14, 15, 16, 17, 19, 23, 24], device='cuda:0')
+2025-06-05 19:22:37,325 - INFO - Updated accuracy: 79.77%
+2025-06-05 19:23:09,029 - INFO - Epoch 2: ce loss: 0.702, con loss: 0.070, ptd loss: 0.977, rep loss: 0.425
+2025-06-05 19:23:09,030 - INFO - Stage 2, Epoch 2: Accuracy list: [0.978 1.    1.    0.927 0.    0.957 0.967 0.856 0.773 0.79  0.96  0.9
+ 0.95  0.898 0.75  0.939 0.98  0.968 0.    0.884]
+2025-06-05 19:23:09,030 - INFO - Stage 2, Epoch 2: Mean accuracy: 0.824
+2025-06-05 19:23:09,030 - INFO - Stage 2, Epoch 2: Top ten classes mean accuracy: 82.480
+2025-06-05 19:23:16,125 - INFO - Initial accuracy: 0.8349
+2025-06-05 19:23:16,145 - INFO - Unique labels before 5th iteration: tensor([ 5, 10, 11, 12, 13, 14, 15, 16, 17, 19, 24], device='cuda:0')
+2025-06-05 19:23:16,344 - INFO - Updated accuracy: 83.28%
+2025-06-05 19:23:22,947 - INFO - Total mean accuracy: 84.709
+2025-06-05 19:23:26,103 - INFO - Epoch 3/30
+2025-06-05 19:23:33,149 - INFO - Initial accuracy: 0.7773
+2025-06-05 19:23:33,172 - INFO - Unique labels before 5th iteration: tensor([ 5, 10, 11, 12, 13, 14, 15, 16, 17, 19, 23, 24], device='cuda:0')
+2025-06-05 19:23:33,223 - INFO - Updated accuracy: 81.75%
+2025-06-05 19:24:04,915 - INFO - Epoch 3: ce loss: 0.527, con loss: 0.118, ptd loss: 0.970, rep loss: 0.220
+2025-06-05 19:24:04,916 - INFO - Stage 2, Epoch 3: Accuracy list: [0.978 1.    1.    0.927 0.    0.979 0.967 0.856 0.753 0.79  0.96  0.91
+ 0.97  0.898 0.93  0.939 0.98  0.968 0.    0.842]
+2025-06-05 19:24:04,916 - INFO - Stage 2, Epoch 3: Mean accuracy: 0.832
+2025-06-05 19:24:04,916 - INFO - Stage 2, Epoch 3: Top ten classes mean accuracy: 82.500
+2025-06-05 19:24:12,225 - INFO - Initial accuracy: 0.8471
+2025-06-05 19:24:12,246 - INFO - Unique labels before 5th iteration: tensor([ 5, 10, 11, 12, 13, 14, 15, 16, 17, 19, 23, 24], device='cuda:0')
+2025-06-05 19:24:12,296 - INFO - Updated accuracy: 84.66%
+2025-06-05 19:24:18,480 - INFO - Total mean accuracy: 85.651
+2025-06-05 19:24:22,426 - INFO - Epoch 4/30
+2025-06-05 19:24:29,559 - INFO - Initial accuracy: 0.7752
+2025-06-05 19:24:29,580 - INFO - Unique labels before 5th iteration: tensor([ 5, 10, 11, 12, 13, 14, 15, 16, 17, 19, 23, 24], device='cuda:0')
+2025-06-05 19:24:29,673 - INFO - Updated accuracy: 80.84%
+2025-06-05 19:25:00,862 - INFO - Epoch 4: ce loss: 0.570, con loss: 0.107, ptd loss: 0.967, rep loss: 0.419
+2025-06-05 19:25:00,863 - INFO - Stage 2, Epoch 4: Accuracy list: [0.978 1.    1.    0.927 0.    0.968 0.956 0.856 0.763 0.79  0.97  0.89
+ 0.95  0.827 0.94  0.949 0.98  0.979 0.    0.853]
+2025-06-05 19:25:00,863 - INFO - Stage 2, Epoch 4: Mean accuracy: 0.829
+2025-06-05 19:25:00,863 - INFO - Stage 2, Epoch 4: Top ten classes mean accuracy: 82.380
+2025-06-05 19:25:08,207 - INFO - Initial accuracy: 0.8410
+2025-06-05 19:25:08,227 - INFO - Unique labels before 5th iteration: tensor([ 5, 10, 11, 12, 13, 14, 15, 16, 17, 19, 23, 24], device='cuda:0')
+2025-06-05 19:25:08,329 - INFO - Updated accuracy: 84.91%
+2025-06-05 19:25:15,309 - INFO - Total mean accuracy: 85.263
+2025-06-05 19:25:18,516 - INFO - Epoch 5/30
+2025-06-05 19:25:25,724 - INFO - Initial accuracy: 0.7819
+2025-06-05 19:25:25,744 - INFO - Unique labels before 5th iteration: tensor([ 5, 10, 11, 12, 13, 14, 15, 16, 17, 19, 23, 24], device='cuda:0')
+2025-06-05 19:25:25,850 - INFO - Updated accuracy: 81.65%
+2025-06-05 19:25:57,251 - INFO - Epoch 5: ce loss: 0.226, con loss: 0.113, ptd loss: 0.962, rep loss: 0.504
+2025-06-05 19:25:57,253 - INFO - Stage 2, Epoch 5: Accuracy list: [0.978 1.    1.    0.927 0.    0.968 0.967 0.856 0.67  0.778 0.97  0.91
+ 0.98  0.847 0.87  0.949 0.98  0.979 0.    0.884]
+2025-06-05 19:25:57,253 - INFO - Stage 2, Epoch 5: Mean accuracy: 0.826
+2025-06-05 19:25:57,253 - INFO - Stage 2, Epoch 5: Top ten classes mean accuracy: 81.440
+2025-06-05 19:26:04,581 - INFO - Initial accuracy: 0.8430
+2025-06-05 19:26:04,601 - INFO - Unique labels before 5th iteration: tensor([ 5, 10, 11, 12, 13, 14, 15, 16, 17, 19, 23, 24], device='cuda:0')
+2025-06-05 19:26:04,669 - INFO - Updated accuracy: 84.30%
+2025-06-05 19:26:10,964 - INFO - Total mean accuracy: 84.931
+2025-06-05 19:26:14,702 - INFO - Epoch 6/30
+2025-06-05 19:26:21,809 - INFO - Initial accuracy: 0.8400
+2025-06-05 19:26:22,325 - INFO - Updated accuracy: 85.22%
+2025-06-05 19:26:46,830 - INFO - Historical prototype classes: [0, 1, 2, 3, 5, 6, 7, 8, 9, 13]
+2025-06-05 19:26:46,831 - INFO - Current prototype classes: [5, 10, 11, 12, 13, 14, 15, 16, 17, 19, 23, 24]
+2025-06-05 19:26:50,623 - INFO - Constructing class 10 exemplar
+2025-06-05 19:26:55,468 - INFO - Constructing class 11 exemplar
+2025-06-05 19:26:59,893 - INFO - Constructing class 12 exemplar
+2025-06-05 19:27:05,171 - INFO - Constructing class 14 exemplar
+2025-06-05 19:27:10,160 - INFO - Constructing class 15 exemplar
+2025-06-05 19:27:15,385 - INFO - Constructing class 16 exemplar
+2025-06-05 19:27:20,112 - INFO - Constructing class 17 exemplar
+2025-06-05 19:27:24,992 - INFO - Constructing class 19 exemplar
+2025-06-05 19:27:29,590 - INFO - Constructing class 23 exemplar
+2025-06-05 19:27:34,202 - INFO - Constructing class 24 exemplar
+2025-06-05 19:27:35,043 - INFO - Updated prototype count: 20
+2025-06-05 19:27:41,709 - INFO - Epoch 6: ce loss: 0.092, con loss: 0.127, ptd loss: 0.958, rep loss: 0.330
+2025-06-05 19:27:41,709 - INFO - Stage 2, Epoch 6: Accuracy list: [0.978 1.    1.    0.927 0.    0.957 0.967 0.856 0.711 0.778 0.97  0.92
+ 0.98  0.878 0.95  0.949 0.98  0.979 0.    0.895]
+2025-06-05 19:27:41,709 - INFO - Stage 2, Epoch 6: Mean accuracy: 0.834
+2025-06-05 19:27:41,709 - INFO - Stage 2, Epoch 6: Top ten classes mean accuracy: 81.740
+2025-06-05 19:27:48,936 - INFO - Initial accuracy: 0.8532
+2025-06-05 19:27:49,545 - INFO - Updated accuracy: 85.27%
+2025-06-05 19:27:55,840 - INFO - Total mean accuracy: 85.817
+2025-06-05 19:27:59,155 - INFO - Epoch 7/30
+2025-06-05 19:28:06,519 - INFO - Initial accuracy: 0.8563
+2025-06-05 19:28:07,130 - INFO - Updated accuracy: 85.78%
+2025-06-05 19:28:37,962 - INFO - Epoch 7: ce loss: 0.061, con loss: 0.086, ptd loss: 0.953, rep loss: 0.570
+2025-06-05 19:28:37,962 - INFO - Stage 2, Epoch 7: Accuracy list: [0.978 1.    1.    0.927 0.    0.947 0.967 0.845 0.639 0.765 0.98  0.93
+ 0.98  0.908 0.95  0.949 0.98  0.979 0.    0.905]
+2025-06-05 19:28:37,962 - INFO - Stage 2, Epoch 7: Mean accuracy: 0.831
+2025-06-05 19:28:37,962 - INFO - Stage 2, Epoch 7: Top ten classes mean accuracy: 80.680
+2025-06-05 19:28:44,955 - INFO - Initial accuracy: 0.8552
+2025-06-05 19:28:45,552 - INFO - Updated accuracy: 85.83%
+2025-06-05 19:28:51,881 - INFO - Total mean accuracy: 85.596
+2025-06-05 19:28:55,024 - INFO - Epoch 8/30
+2025-06-05 19:29:02,165 - INFO - Initial accuracy: 0.8568
+2025-06-05 19:29:02,739 - INFO - Updated accuracy: 85.52%
+2025-06-05 19:29:34,217 - INFO - Epoch 8: ce loss: 0.043, con loss: 0.057, ptd loss: 0.949, rep loss: 0.294
+2025-06-05 19:29:34,218 - INFO - Stage 2, Epoch 8: Accuracy list: [0.978 1.    1.    0.927 0.    0.947 0.956 0.856 0.66  0.778 0.98  0.93
+ 0.98  0.918 0.96  0.949 0.98  0.979 0.    0.884]
+2025-06-05 19:29:34,218 - INFO - Stage 2, Epoch 8: Mean accuracy: 0.833
+2025-06-05 19:29:34,218 - INFO - Stage 2, Epoch 8: Top ten classes mean accuracy: 81.020
+2025-06-05 19:29:41,787 - INFO - Initial accuracy: 0.8558
+2025-06-05 19:29:42,389 - INFO - Updated accuracy: 85.78%
+2025-06-05 19:29:48,715 - INFO - Total mean accuracy: 85.762
+2025-06-05 19:29:52,546 - INFO - Epoch 9/30
+2025-06-05 19:29:59,483 - INFO - Initial accuracy: 0.8583
+2025-06-05 19:30:00,084 - INFO - Updated accuracy: 85.93%
+2025-06-05 19:30:32,264 - INFO - Epoch 9: ce loss: 0.062, con loss: 0.035, ptd loss: 0.945, rep loss: 0.463
+2025-06-05 19:30:32,264 - INFO - Stage 2, Epoch 9: Accuracy list: [0.978 1.    1.    0.927 0.    0.947 0.956 0.845 0.639 0.778 0.98  0.93
+ 0.98  0.898 0.97  0.949 0.98  0.989 0.    0.895]
+2025-06-05 19:30:32,265 - INFO - Stage 2, Epoch 9: Mean accuracy: 0.832
+2025-06-05 19:30:32,265 - INFO - Stage 2, Epoch 9: Top ten classes mean accuracy: 80.700
+2025-06-05 19:30:39,212 - INFO - Initial accuracy: 0.8588
+2025-06-05 19:30:39,918 - INFO - Updated accuracy: 85.58%
+2025-06-05 19:30:46,421 - INFO - Total mean accuracy: 85.651
+2025-06-05 19:30:50,319 - INFO - Epoch 10/30
+2025-06-05 19:30:57,322 - INFO - Initial accuracy: 0.8568
+2025-06-05 19:30:57,914 - INFO - Updated accuracy: 85.68%
+2025-06-05 19:31:29,236 - INFO - Epoch 10: ce loss: 0.054, con loss: 0.041, ptd loss: 0.941, rep loss: 0.442
+2025-06-05 19:31:29,238 - INFO - Stage 2, Epoch 10: Accuracy list: [0.967 1.    1.    0.915 0.    0.947 0.956 0.845 0.649 0.79  0.98  0.95
+ 0.98  0.898 0.96  0.949 0.98  0.989 0.    0.884]
+2025-06-05 19:31:29,238 - INFO - Stage 2, Epoch 10: Mean accuracy: 0.832
+2025-06-05 19:31:29,238 - INFO - Stage 2, Epoch 10: Top ten classes mean accuracy: 80.690
+2025-06-05 19:31:36,952 - INFO - Initial accuracy: 0.8598
+2025-06-05 19:31:37,549 - INFO - Updated accuracy: 85.78%
+2025-06-05 19:31:44,059 - INFO - Total mean accuracy: 85.651
+2025-06-05 19:31:47,750 - INFO - Epoch 11/30
+2025-06-05 19:31:55,208 - INFO - Initial accuracy: 0.8603
+2025-06-05 19:31:55,788 - INFO - Updated accuracy: 85.98%
+2025-06-05 19:32:21,611 - INFO - Historical prototype classes: [0, 1, 2, 3, 5, 6, 7, 8, 9, 13, 10, 11, 12, 14, 15, 16, 17, 19, 23, 24]
+2025-06-05 19:32:21,611 - INFO - Current prototype classes: [5, 10, 11, 12, 13, 14, 15, 16, 17, 19, 24]
+2025-06-05 19:32:21,611 - INFO - Missing classes compared to historical: [23]
+2025-06-05 19:32:21,611 - INFO - Removed prototypes for missing class 23
+2025-06-05 19:32:21,611 - INFO - Missing classes compared to historical: [23]
+2025-06-05 19:32:21,611 - INFO - Missing classes compared to historical: [23]
+2025-06-05 19:32:21,611 - INFO - Missing classes compared to historical: [23]
+2025-06-05 19:32:25,705 - INFO - Constructing class 12 exemplar
+2025-06-05 19:32:26,639 - INFO - Missing classes compared to historical: [23]
+2025-06-05 19:32:30,712 - INFO - Constructing class 13 exemplar
+2025-06-05 19:32:31,603 - INFO - Missing classes compared to historical: [23]
+2025-06-05 19:32:36,195 - INFO - Constructing class 14 exemplar
+2025-06-05 19:32:37,196 - INFO - Missing classes compared to historical: [23]
+2025-06-05 19:32:37,196 - INFO - Missing classes compared to historical: [23]
+2025-06-05 19:32:37,196 - INFO - Missing classes compared to historical: [23]
+2025-06-05 19:32:37,196 - INFO - Missing classes compared to historical: [23]
+2025-06-05 19:32:37,196 - INFO - Missing classes compared to historical: [23]
+2025-06-05 19:32:41,393 - INFO - Constructing class 24 exemplar
+2025-06-05 19:32:42,284 - INFO - Updated prototype count: 19
+2025-06-05 19:32:48,462 - INFO - Epoch 11: ce loss: 0.230, con loss: 0.067, ptd loss: 0.939, rep loss: 0.504
+2025-06-05 19:32:48,463 - INFO - Stage 2, Epoch 11: Accuracy list: [0.967 1.    1.    0.915 0.    0.947 0.956 0.856 0.629 0.778 0.98  0.95
+ 0.98  0.918 0.97  0.949 0.98  0.989 0.    0.884]
+2025-06-05 19:32:48,463 - INFO - Stage 2, Epoch 11: Mean accuracy: 0.832
+2025-06-05 19:32:48,463 - INFO - Stage 2, Epoch 11: Top ten classes mean accuracy: 80.480
+2025-06-05 19:32:55,966 - INFO - Initial accuracy: 0.8614
+2025-06-05 19:32:56,675 - INFO - Updated accuracy: 85.88%
+2025-06-05 19:33:02,945 - INFO - Total mean accuracy: 85.706
+2025-06-05 19:33:06,136 - INFO - Epoch 12/30
+2025-06-05 19:33:13,547 - INFO - Initial accuracy: 0.8578
+2025-06-05 19:33:14,173 - INFO - Updated accuracy: 85.93%
+2025-06-05 19:33:45,487 - INFO - Epoch 12: ce loss: 0.127, con loss: 0.017, ptd loss: 0.935, rep loss: 0.200
+2025-06-05 19:33:45,488 - INFO - Stage 2, Epoch 12: Accuracy list: [0.967 1.    1.    0.915 0.    0.947 0.967 0.845 0.629 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.884]
+2025-06-05 19:33:45,488 - INFO - Stage 2, Epoch 12: Mean accuracy: 0.832
+2025-06-05 19:33:45,488 - INFO - Stage 2, Epoch 12: Top ten classes mean accuracy: 80.480
+2025-06-05 19:33:52,628 - INFO - Initial accuracy: 0.8593
+2025-06-05 19:33:53,309 - INFO - Updated accuracy: 85.98%
+2025-06-05 19:33:59,742 - INFO - Total mean accuracy: 85.651
+2025-06-05 19:34:03,378 - INFO - Epoch 13/30
+2025-06-05 19:34:10,819 - INFO - Initial accuracy: 0.8593
+2025-06-05 19:34:11,423 - INFO - Updated accuracy: 86.24%
+2025-06-05 19:34:43,922 - INFO - Epoch 13: ce loss: 0.040, con loss: 0.082, ptd loss: 0.931, rep loss: 0.190
+2025-06-05 19:34:43,922 - INFO - Stage 2, Epoch 13: Accuracy list: [0.967 1.    1.    0.902 0.    0.926 0.956 0.845 0.629 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.874]
+2025-06-05 19:34:43,922 - INFO - Stage 2, Epoch 13: Mean accuracy: 0.829
+2025-06-05 19:34:43,922 - INFO - Stage 2, Epoch 13: Top ten classes mean accuracy: 80.030
+2025-06-05 19:34:51,117 - INFO - Initial accuracy: 0.8598
+2025-06-05 19:34:51,732 - INFO - Updated accuracy: 85.98%
+2025-06-05 19:34:58,241 - INFO - Total mean accuracy: 85.374
+2025-06-05 19:35:01,726 - INFO - Epoch 14/30
+2025-06-05 19:35:08,911 - INFO - Initial accuracy: 0.8609
+2025-06-05 19:35:09,512 - INFO - Updated accuracy: 86.14%
+2025-06-05 19:35:41,418 - INFO - Epoch 14: ce loss: 0.030, con loss: 0.092, ptd loss: 0.927, rep loss: 0.275
+2025-06-05 19:35:41,419 - INFO - Stage 2, Epoch 14: Accuracy list: [0.967 1.    1.    0.902 0.    0.926 0.967 0.845 0.639 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.874]
+2025-06-05 19:35:41,419 - INFO - Stage 2, Epoch 14: Mean accuracy: 0.830
+2025-06-05 19:35:41,419 - INFO - Stage 2, Epoch 14: Top ten classes mean accuracy: 80.240
+2025-06-05 19:35:48,598 - INFO - Initial accuracy: 0.8614
+2025-06-05 19:35:49,228 - INFO - Updated accuracy: 86.09%
+2025-06-05 19:35:55,649 - INFO - Total mean accuracy: 85.485
+2025-06-05 19:35:58,873 - INFO - Epoch 15/30
+2025-06-05 19:36:06,116 - INFO - Initial accuracy: 0.8609
+2025-06-05 19:36:06,736 - INFO - Updated accuracy: 85.93%
+2025-06-05 19:36:38,422 - INFO - Epoch 15: ce loss: 0.275, con loss: 0.020, ptd loss: 0.924, rep loss: 0.180
+2025-06-05 19:36:38,423 - INFO - Stage 2, Epoch 15: Accuracy list: [0.957 1.    1.    0.902 0.    0.936 0.967 0.845 0.629 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.874]
+2025-06-05 19:36:38,423 - INFO - Stage 2, Epoch 15: Mean accuracy: 0.830
+2025-06-05 19:36:38,424 - INFO - Stage 2, Epoch 15: Top ten classes mean accuracy: 80.140
+2025-06-05 19:36:46,244 - INFO - Initial accuracy: 0.8593
+2025-06-05 19:36:46,831 - INFO - Updated accuracy: 86.03%
+2025-06-05 19:36:53,105 - INFO - Total mean accuracy: 85.429
+2025-06-05 19:36:56,213 - INFO - Epoch 16/30
+2025-06-05 19:37:03,211 - INFO - Initial accuracy: 0.8609
+2025-06-05 19:37:03,801 - INFO - Updated accuracy: 86.03%
+2025-06-05 19:37:35,571 - INFO - Epoch 16: ce loss: 0.013, con loss: 0.064, ptd loss: 0.920, rep loss: 0.206
+2025-06-05 19:37:35,573 - INFO - Stage 2, Epoch 16: Accuracy list: [0.957 1.    1.    0.915 0.    0.947 0.967 0.845 0.639 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.874]
+2025-06-05 19:37:35,573 - INFO - Stage 2, Epoch 16: Mean accuracy: 0.831
+2025-06-05 19:37:35,573 - INFO - Stage 2, Epoch 16: Top ten classes mean accuracy: 80.480
+2025-06-05 19:37:43,429 - INFO - Initial accuracy: 0.8614
+2025-06-05 19:37:44,110 - INFO - Updated accuracy: 86.09%
+2025-06-05 19:37:50,655 - INFO - Total mean accuracy: 85.596
+2025-06-05 19:37:53,965 - INFO - Epoch 17/30
+2025-06-05 19:38:01,203 - INFO - Initial accuracy: 0.8614
+2025-06-05 19:38:01,814 - INFO - Updated accuracy: 86.19%
+2025-06-05 19:38:33,627 - INFO - Epoch 17: ce loss: 0.077, con loss: 0.028, ptd loss: 0.917, rep loss: 0.176
+2025-06-05 19:38:33,628 - INFO - Stage 2, Epoch 17: Accuracy list: [0.957 1.    1.    0.902 0.    0.936 0.967 0.845 0.629 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.884]
+2025-06-05 19:38:33,628 - INFO - Stage 2, Epoch 17: Mean accuracy: 0.830
+2025-06-05 19:38:33,628 - INFO - Stage 2, Epoch 17: Top ten classes mean accuracy: 80.140
+2025-06-05 19:38:41,222 - INFO - Initial accuracy: 0.8614
+2025-06-05 19:38:41,836 - INFO - Updated accuracy: 86.14%
+2025-06-05 19:38:48,457 - INFO - Total mean accuracy: 85.485
+2025-06-05 19:38:52,036 - INFO - Epoch 18/30
+2025-06-05 19:38:59,506 - INFO - Initial accuracy: 0.8593
+2025-06-05 19:39:00,266 - INFO - Updated accuracy: 85.93%
+2025-06-05 19:39:32,889 - INFO - Epoch 18: ce loss: 0.051, con loss: 0.211, ptd loss: 0.913, rep loss: 0.148
+2025-06-05 19:39:32,890 - INFO - Stage 2, Epoch 18: Accuracy list: [0.957 1.    1.    0.902 0.    0.926 0.967 0.845 0.629 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.884]
+2025-06-05 19:39:32,891 - INFO - Stage 2, Epoch 18: Mean accuracy: 0.830
+2025-06-05 19:39:32,891 - INFO - Stage 2, Epoch 18: Top ten classes mean accuracy: 80.040
+2025-06-05 19:39:39,960 - INFO - Initial accuracy: 0.8614
+2025-06-05 19:39:40,537 - INFO - Updated accuracy: 86.09%
+2025-06-05 19:39:47,243 - INFO - Total mean accuracy: 85.429
+2025-06-05 19:39:51,102 - INFO - Epoch 19/30
+2025-06-05 19:39:57,898 - INFO - Initial accuracy: 0.8619
+2025-06-05 19:39:58,486 - INFO - Updated accuracy: 86.29%
+2025-06-05 19:40:30,620 - INFO - Epoch 19: ce loss: 0.041, con loss: 0.107, ptd loss: 0.910, rep loss: 0.308
+2025-06-05 19:40:30,621 - INFO - Stage 2, Epoch 19: Accuracy list: [0.957 1.    1.    0.902 0.    0.926 0.967 0.845 0.639 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.884]
+2025-06-05 19:40:30,621 - INFO - Stage 2, Epoch 19: Mean accuracy: 0.830
+2025-06-05 19:40:30,621 - INFO - Stage 2, Epoch 19: Top ten classes mean accuracy: 80.140
+2025-06-05 19:40:37,871 - INFO - Initial accuracy: 0.8619
+2025-06-05 19:40:38,495 - INFO - Updated accuracy: 86.14%
+2025-06-05 19:40:45,132 - INFO - Total mean accuracy: 85.485
+2025-06-05 19:40:48,282 - INFO - Epoch 20/30
+2025-06-05 19:40:55,434 - INFO - Initial accuracy: 0.8609
+2025-06-05 19:40:56,015 - INFO - Updated accuracy: 86.09%
+2025-06-05 19:41:28,433 - INFO - Epoch 20: ce loss: 0.085, con loss: 0.058, ptd loss: 0.907, rep loss: 0.304
+2025-06-05 19:41:28,434 - INFO - Stage 2, Epoch 20: Accuracy list: [0.957 1.    1.    0.902 0.    0.936 0.967 0.845 0.629 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.884]
+2025-06-05 19:41:28,434 - INFO - Stage 2, Epoch 20: Mean accuracy: 0.830
+2025-06-05 19:41:28,434 - INFO - Stage 2, Epoch 20: Top ten classes mean accuracy: 80.140
+2025-06-05 19:41:36,114 - INFO - Initial accuracy: 0.8619
+2025-06-05 19:41:36,731 - INFO - Updated accuracy: 86.19%
+2025-06-05 19:41:43,248 - INFO - Total mean accuracy: 85.485
+2025-06-05 19:41:46,602 - INFO - Epoch 21/30
+2025-06-05 19:41:53,852 - INFO - Initial accuracy: 0.8603
+2025-06-05 19:41:54,461 - INFO - Updated accuracy: 85.98%
+2025-06-05 19:42:20,179 - INFO - Historical prototype classes: [0, 1, 2, 3, 5, 6, 7, 8, 9, 13, 10, 11, 12, 14, 15, 16, 17, 19, 24]
+2025-06-05 19:42:20,181 - INFO - Current prototype classes: [5, 10, 11, 12, 13, 14, 15, 16, 17, 19, 24]
+2025-06-05 19:42:24,870 - INFO - Constructing class 11 exemplar
+2025-06-05 19:42:30,087 - INFO - Constructing class 12 exemplar
+2025-06-05 19:42:35,830 - INFO - Constructing class 13 exemplar
+2025-06-05 19:42:41,237 - INFO - Constructing class 14 exemplar
+2025-06-05 19:42:46,252 - INFO - Constructing class 16 exemplar
+2025-06-05 19:42:52,067 - INFO - Constructing class 24 exemplar
+2025-06-05 19:42:52,987 - INFO - Updated prototype count: 19
+2025-06-05 19:42:59,251 - INFO - Epoch 21: ce loss: 0.039, con loss: 0.024, ptd loss: 0.903, rep loss: 0.199
+2025-06-05 19:42:59,252 - INFO - Stage 2, Epoch 21: Accuracy list: [0.967 1.    1.    0.915 0.    0.936 0.967 0.845 0.639 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.874]
+2025-06-05 19:42:59,253 - INFO - Stage 2, Epoch 21: Mean accuracy: 0.831
+2025-06-05 19:42:59,253 - INFO - Stage 2, Epoch 21: Top ten classes mean accuracy: 80.470
+2025-06-05 19:43:06,223 - INFO - Initial accuracy: 0.8614
+2025-06-05 19:43:06,883 - INFO - Updated accuracy: 86.14%
+2025-06-05 19:43:13,083 - INFO - Total mean accuracy: 85.596
+2025-06-05 19:43:17,266 - INFO - Epoch 22/30
+2025-06-05 19:43:24,198 - INFO - Initial accuracy: 0.8598
+2025-06-05 19:43:24,834 - INFO - Updated accuracy: 86.03%
+2025-06-05 19:43:56,061 - INFO - Epoch 22: ce loss: 0.044, con loss: 0.014, ptd loss: 0.900, rep loss: 0.194
+2025-06-05 19:43:56,062 - INFO - Stage 2, Epoch 22: Accuracy list: [0.967 1.    1.    0.915 0.    0.915 0.967 0.845 0.639 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.874]
+2025-06-05 19:43:56,063 - INFO - Stage 2, Epoch 22: Mean accuracy: 0.830
+2025-06-05 19:43:56,063 - INFO - Stage 2, Epoch 22: Top ten classes mean accuracy: 80.260
+2025-06-05 19:44:03,724 - INFO - Initial accuracy: 0.8603
+2025-06-05 19:44:04,325 - INFO - Updated accuracy: 85.98%
+2025-06-05 19:44:10,836 - INFO - Total mean accuracy: 85.485
+2025-06-05 19:44:15,136 - INFO - Epoch 23/30
+2025-06-05 19:44:22,646 - INFO - Initial accuracy: 0.8603
+2025-06-05 19:44:23,233 - INFO - Updated accuracy: 85.98%
+2025-06-05 19:44:55,144 - INFO - Epoch 23: ce loss: 0.013, con loss: 0.030, ptd loss: 0.897, rep loss: 0.176
+2025-06-05 19:44:55,145 - INFO - Stage 2, Epoch 23: Accuracy list: [0.967 1.    1.    0.915 0.    0.936 0.967 0.845 0.629 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.874]
+2025-06-05 19:44:55,146 - INFO - Stage 2, Epoch 23: Mean accuracy: 0.831
+2025-06-05 19:44:55,146 - INFO - Stage 2, Epoch 23: Top ten classes mean accuracy: 80.370
+2025-06-05 19:45:02,156 - INFO - Initial accuracy: 0.8603
+2025-06-05 19:45:02,736 - INFO - Updated accuracy: 85.88%
+2025-06-05 19:45:09,233 - INFO - Total mean accuracy: 85.540
+2025-06-05 19:45:13,141 - INFO - Epoch 24/30
+2025-06-05 19:45:20,580 - INFO - Initial accuracy: 0.8603
+2025-06-05 19:45:21,142 - INFO - Updated accuracy: 86.03%
+2025-06-05 19:45:53,264 - INFO - Epoch 24: ce loss: 0.011, con loss: 0.019, ptd loss: 0.894, rep loss: 0.143
+2025-06-05 19:45:53,264 - INFO - Stage 2, Epoch 24: Accuracy list: [0.967 1.    1.    0.915 0.    0.936 0.967 0.845 0.619 0.765 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.874]
+2025-06-05 19:45:53,264 - INFO - Stage 2, Epoch 24: Mean accuracy: 0.830
+2025-06-05 19:45:53,264 - INFO - Stage 2, Epoch 24: Top ten classes mean accuracy: 80.140
+2025-06-05 19:46:00,544 - INFO - Initial accuracy: 0.8603
+2025-06-05 19:46:01,628 - INFO - Updated accuracy: 86.03%
+2025-06-05 19:46:07,967 - INFO - Total mean accuracy: 85.429
+2025-06-05 19:46:12,550 - INFO - Epoch 25/30
+2025-06-05 19:46:20,157 - INFO - Initial accuracy: 0.8598
+2025-06-05 19:46:20,729 - INFO - Updated accuracy: 85.98%
+2025-06-05 19:46:52,659 - INFO - Epoch 25: ce loss: 0.049, con loss: 0.035, ptd loss: 0.891, rep loss: 0.218
+2025-06-05 19:46:52,659 - INFO - Stage 2, Epoch 25: Accuracy list: [0.967 1.    1.    0.915 0.    0.915 0.967 0.845 0.619 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.874]
+2025-06-05 19:46:52,660 - INFO - Stage 2, Epoch 25: Mean accuracy: 0.829
+2025-06-05 19:46:52,660 - INFO - Stage 2, Epoch 25: Top ten classes mean accuracy: 80.060
+2025-06-05 19:47:00,327 - INFO - Initial accuracy: 0.8603
+2025-06-05 19:47:00,895 - INFO - Updated accuracy: 86.09%
+2025-06-05 19:47:07,443 - INFO - Total mean accuracy: 85.374
+2025-06-05 19:47:11,416 - INFO - Epoch 26/30
+2025-06-05 19:47:18,609 - INFO - Initial accuracy: 0.8603
+2025-06-05 19:47:19,220 - INFO - Updated accuracy: 86.03%
+2025-06-05 19:47:51,355 - INFO - Epoch 26: ce loss: 0.019, con loss: 0.041, ptd loss: 0.888, rep loss: 0.096
+2025-06-05 19:47:51,356 - INFO - Stage 2, Epoch 26: Accuracy list: [0.967 1.    1.    0.915 0.    0.915 0.967 0.845 0.629 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.874]
+2025-06-05 19:47:51,356 - INFO - Stage 2, Epoch 26: Mean accuracy: 0.830
+2025-06-05 19:47:51,356 - INFO - Stage 2, Epoch 26: Top ten classes mean accuracy: 80.160
+2025-06-05 19:47:58,990 - INFO - Initial accuracy: 0.8603
+2025-06-05 19:47:59,573 - INFO - Updated accuracy: 86.03%
+2025-06-05 19:48:06,048 - INFO - Total mean accuracy: 85.429
+2025-06-05 19:48:10,042 - INFO - Epoch 27/30
+2025-06-05 19:48:17,037 - INFO - Initial accuracy: 0.8603
+2025-06-05 19:48:17,611 - INFO - Updated accuracy: 85.98%
+2025-06-05 19:48:49,706 - INFO - Epoch 27: ce loss: 0.031, con loss: 0.022, ptd loss: 0.885, rep loss: 0.192
+2025-06-05 19:48:49,707 - INFO - Stage 2, Epoch 27: Accuracy list: [0.967 1.    1.    0.915 0.    0.926 0.967 0.845 0.629 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.874]
+2025-06-05 19:48:49,707 - INFO - Stage 2, Epoch 27: Mean accuracy: 0.830
+2025-06-05 19:48:49,707 - INFO - Stage 2, Epoch 27: Top ten classes mean accuracy: 80.270
+2025-06-05 19:48:57,181 - INFO - Initial accuracy: 0.8603
+2025-06-05 19:48:57,772 - INFO - Updated accuracy: 86.03%
+2025-06-05 19:49:04,296 - INFO - Total mean accuracy: 85.485
+2025-06-05 19:49:08,368 - INFO - Epoch 28/30
+2025-06-05 19:49:15,591 - INFO - Initial accuracy: 0.8603
+2025-06-05 19:49:16,218 - INFO - Updated accuracy: 86.03%
+2025-06-05 19:49:48,692 - INFO - Epoch 28: ce loss: 0.009, con loss: 0.068, ptd loss: 0.883, rep loss: 0.191
+2025-06-05 19:49:48,693 - INFO - Stage 2, Epoch 28: Accuracy list: [0.967 1.    1.    0.915 0.    0.926 0.967 0.845 0.639 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.874]
+2025-06-05 19:49:48,694 - INFO - Stage 2, Epoch 28: Mean accuracy: 0.831
+2025-06-05 19:49:48,694 - INFO - Stage 2, Epoch 28: Top ten classes mean accuracy: 80.370
+2025-06-05 19:49:56,071 - INFO - Initial accuracy: 0.8603
+2025-06-05 19:49:56,663 - INFO - Updated accuracy: 86.03%
+2025-06-05 19:50:03,090 - INFO - Total mean accuracy: 85.540
+2025-06-05 19:50:07,447 - INFO - Epoch 29/30
+2025-06-05 19:50:14,671 - INFO - Initial accuracy: 0.8609
+2025-06-05 19:50:15,305 - INFO - Updated accuracy: 86.09%
+2025-06-05 19:50:48,499 - INFO - Epoch 29: ce loss: 0.014, con loss: 0.031, ptd loss: 0.880, rep loss: 0.156
+2025-06-05 19:50:48,500 - INFO - Stage 2, Epoch 29: Accuracy list: [0.967 1.    1.    0.915 0.    0.915 0.967 0.845 0.629 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.874]
+2025-06-05 19:50:48,500 - INFO - Stage 2, Epoch 29: Mean accuracy: 0.830
+2025-06-05 19:50:48,500 - INFO - Stage 2, Epoch 29: Top ten classes mean accuracy: 80.160
+2025-06-05 19:50:56,204 - INFO - Initial accuracy: 0.8603
+2025-06-05 19:50:56,798 - INFO - Updated accuracy: 86.03%
+2025-06-05 19:51:03,546 - INFO - Total mean accuracy: 85.429
+2025-06-05 19:51:08,174 - INFO - Epoch 30/30
+2025-06-05 19:51:15,272 - INFO - Initial accuracy: 0.8603
+2025-06-05 19:51:15,876 - INFO - Updated accuracy: 85.98%
+2025-06-05 19:51:49,035 - INFO - Epoch 30: ce loss: 0.014, con loss: 0.036, ptd loss: 0.877, rep loss: 0.133
+2025-06-05 19:51:49,036 - INFO - Stage 2, Epoch 30: Accuracy list: [0.967 1.    1.    0.915 0.    0.915 0.967 0.845 0.639 0.778 0.98  0.95
+ 0.98  0.908 0.97  0.949 0.98  0.989 0.    0.874]
+2025-06-05 19:51:49,036 - INFO - Stage 2, Epoch 30: Mean accuracy: 0.830
+2025-06-05 19:51:49,036 - INFO - Stage 2, Epoch 30: Top ten classes mean accuracy: 80.260
+2025-06-05 19:51:56,774 - INFO - Initial accuracy: 0.8603
+2025-06-05 19:51:57,364 - INFO - Updated accuracy: 86.03%
+2025-06-05 19:52:03,775 - INFO - Total mean accuracy: 85.485
+2025-06-05 19:52:14,568 - INFO - Stage 2 completed. Best accuracy: 85.817
+2025-06-05 19:52:14,569 - INFO - Starting incremental stage 3/3
+2025-06-05 19:52:21,144 - INFO - Average relation matrix mean: 0.0323
+2025-06-05 19:52:21,148 - INFO - Shared classes: [8, 13, 16, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+2025-06-05 19:52:21,148 - INFO - Classes meeting probability condition: [13, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+2025-06-05 19:52:21,148 - INFO - Classes meeting similarity condition: [8, 16, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+2025-06-05 19:52:21,358 - INFO - Starting training for stage 3
+2025-06-05 19:52:21,358 - INFO - Epoch 1/30
+2025-06-05 19:52:28,577 - INFO - Initial accuracy: 0.6677
+2025-06-05 19:52:28,597 - INFO - Unique labels before 5th iteration: tensor([ 8, 13, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], device='cuda:0')
+2025-06-05 19:52:28,741 - INFO - Updated accuracy: 70.46%
+2025-06-05 19:53:02,948 - INFO - Epoch 1: ce loss: 0.954, con loss: 0.051, ptd loss: 0.982, rep loss: 0.157
+2025-06-05 19:53:02,948 - INFO - Stage 3, Epoch 1: Accuracy list: [0.967 1.    1.    0.902 0.    0.904 0.956 0.856 0.619 0.79  0.98  0.95
+ 0.98  0.878 0.96  0.949 0.95  0.979 0.    0.853 0.731 0.99  0.888 0.163
+ 0.844 0.8   0.48  0.758 0.798 0.76 ]
+2025-06-05 19:53:02,948 - INFO - Stage 3, Epoch 1: Mean accuracy: 0.790
+2025-06-05 19:53:02,948 - INFO - Stage 3, Epoch 1: Top ten classes mean accuracy: 79.940
+2025-06-05 19:53:10,760 - INFO - Initial accuracy: 0.7363
+2025-06-05 19:53:10,823 - INFO - Unique labels before 5th iteration: tensor([ 8, 13, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], device='cuda:0')
+2025-06-05 19:53:10,920 - INFO - Updated accuracy: 75.47%
+2025-06-05 19:53:20,282 - INFO - Total mean accuracy: 80.312
+2025-06-05 19:53:20,648 - INFO - Epoch 2/30
+2025-06-05 19:53:28,122 - INFO - Initial accuracy: 0.6693
+2025-06-05 19:53:28,141 - INFO - Unique labels before 5th iteration: tensor([ 8, 13, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], device='cuda:0')
+2025-06-05 19:53:28,238 - INFO - Updated accuracy: 69.94%
+2025-06-05 19:54:02,329 - INFO - Epoch 2: ce loss: 1.140, con loss: 0.173, ptd loss: 0.973, rep loss: 0.178
+2025-06-05 19:54:02,330 - INFO - Stage 3, Epoch 2: Accuracy list: [0.957 1.    0.972 0.89  0.    0.926 0.934 0.825 0.814 0.741 0.98  0.93
+ 0.97  0.898 0.94  0.949 0.97  0.979 0.    0.863 0.731 0.88  0.878 0.255
+ 0.756 0.813 0.49  0.788 0.788 0.812]
+2025-06-05 19:54:02,330 - INFO - Stage 3, Epoch 2: Mean accuracy: 0.791
+2025-06-05 19:54:02,330 - INFO - Stage 3, Epoch 2: Top ten classes mean accuracy: 80.590
+2025-06-05 19:54:09,832 - INFO - Initial accuracy: 0.7363
+2025-06-05 19:54:09,853 - INFO - Unique labels before 5th iteration: tensor([ 8, 13, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], device='cuda:0')
+2025-06-05 19:54:10,014 - INFO - Updated accuracy: 76.42%
+2025-06-05 19:54:19,233 - INFO - Total mean accuracy: 80.530
+2025-06-05 19:54:21,332 - INFO - Epoch 3/30
+2025-06-05 19:54:28,678 - INFO - Initial accuracy: 0.6667
+2025-06-05 19:54:28,697 - INFO - Unique labels before 5th iteration: tensor([ 8, 13, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], device='cuda:0')
+2025-06-05 19:54:28,776 - INFO - Updated accuracy: 68.93%
+2025-06-05 19:55:04,538 - INFO - Epoch 3: ce loss: 0.318, con loss: 0.113, ptd loss: 0.967, rep loss: 0.221
+2025-06-05 19:55:04,539 - INFO - Stage 3, Epoch 3: Accuracy list: [0.967 1.    1.    0.878 0.    0.926 0.945 0.835 0.794 0.778 0.98  0.93
+ 0.96  0.908 0.95  0.949 0.94  0.968 0.    0.811 0.742 0.92  0.908 0.224
+ 0.744 0.827 0.51  0.768 0.818 0.677]
+2025-06-05 19:55:04,539 - INFO - Stage 3, Epoch 3: Mean accuracy: 0.789
+2025-06-05 19:55:04,539 - INFO - Stage 3, Epoch 3: Top ten classes mean accuracy: 81.230
+2025-06-05 19:55:12,334 - INFO - Initial accuracy: 0.7210
+2025-06-05 19:55:12,354 - INFO - Unique labels before 5th iteration: tensor([ 8, 13, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], device='cuda:0')
+2025-06-05 19:55:12,595 - INFO - Updated accuracy: 76.37%
+2025-06-05 19:55:22,341 - INFO - Total mean accuracy: 80.240
+2025-06-05 19:55:24,715 - INFO - Epoch 4/30
+2025-06-05 19:55:32,032 - INFO - Initial accuracy: 0.6735
+2025-06-05 19:55:32,053 - INFO - Unique labels before 5th iteration: tensor([ 8, 13, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], device='cuda:0')
+2025-06-05 19:55:32,113 - INFO - Updated accuracy: 70.46%
+2025-06-05 19:56:08,261 - INFO - Epoch 4: ce loss: 0.521, con loss: 0.033, ptd loss: 0.962, rep loss: 0.321
+2025-06-05 19:56:08,263 - INFO - Stage 3, Epoch 4: Accuracy list: [0.967 0.988 0.986 0.89  0.    0.926 0.945 0.804 0.67  0.765 0.97  0.91
+ 0.97  0.888 0.92  0.949 0.93  0.979 0.    0.811 0.742 0.9   0.888 0.316
+ 0.789 0.84  0.53  0.808 0.798 0.75 ]
+2025-06-05 19:56:08,263 - INFO - Stage 3, Epoch 4: Mean accuracy: 0.788
+2025-06-05 19:56:08,263 - INFO - Stage 3, Epoch 4: Top ten classes mean accuracy: 79.410
+2025-06-05 19:56:15,744 - INFO - Initial accuracy: 0.7447
+2025-06-05 19:56:15,764 - INFO - Unique labels before 5th iteration: tensor([ 8, 13, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], device='cuda:0')
+2025-06-05 19:56:15,843 - INFO - Updated accuracy: 76.48%
+2025-06-05 19:56:25,762 - INFO - Total mean accuracy: 80.131
+2025-06-05 19:56:28,705 - INFO - Epoch 5/30
+2025-06-05 19:56:36,091 - INFO - Initial accuracy: 0.6630
+2025-06-05 19:56:36,112 - INFO - Unique labels before 5th iteration: tensor([ 8, 13, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], device='cuda:0')
+2025-06-05 19:56:36,165 - INFO - Updated accuracy: 68.88%
+2025-06-05 19:57:11,476 - INFO - Epoch 5: ce loss: 0.437, con loss: 0.099, ptd loss: 0.957, rep loss: 0.184
+2025-06-05 19:57:11,477 - INFO - Stage 3, Epoch 5: Accuracy list: [0.978 1.    0.986 0.89  0.    0.926 0.956 0.835 0.814 0.778 0.98  0.93
+ 0.97  0.908 0.95  0.939 0.94  0.979 0.    0.853 0.731 0.92  0.878 0.265
+ 0.711 0.773 0.52  0.828 0.838 0.781]
+2025-06-05 19:57:11,477 - INFO - Stage 3, Epoch 5: Mean accuracy: 0.795
+2025-06-05 19:57:11,477 - INFO - Stage 3, Epoch 5: Top ten classes mean accuracy: 81.630
+2025-06-05 19:57:19,264 - INFO - Initial accuracy: 0.7284
+2025-06-05 19:57:19,285 - INFO - Unique labels before 5th iteration: tensor([ 8, 13, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], device='cuda:0')
+2025-06-05 19:57:19,497 - INFO - Updated accuracy: 77.43%
+2025-06-05 19:57:29,083 - INFO - Total mean accuracy: 81.003
+2025-06-05 19:57:31,219 - INFO - Epoch 6/30
+2025-06-05 19:57:38,192 - INFO - Initial accuracy: 0.7331
+2025-06-05 19:57:38,626 - INFO - Updated accuracy: 76.85%
+2025-06-05 19:58:04,929 - INFO - Historical prototype classes: [0, 1, 2, 3, 5, 6, 7, 8, 9, 13, 10, 11, 12, 14, 15, 16, 17, 19, 24]
+2025-06-05 19:58:04,931 - INFO - Current prototype classes: [8, 13, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+2025-06-05 19:58:08,695 - INFO - Constructing class 20 exemplar
+2025-06-05 19:58:13,208 - INFO - Constructing class 21 exemplar
+2025-06-05 19:58:18,659 - INFO - Constructing class 22 exemplar
+2025-06-05 19:58:23,351 - INFO - Constructing class 23 exemplar
+2025-06-05 19:58:28,090 - INFO - Constructing class 25 exemplar
+2025-06-05 19:58:32,733 - INFO - Constructing class 26 exemplar
+2025-06-05 19:58:37,950 - INFO - Constructing class 27 exemplar
+2025-06-05 19:58:43,062 - INFO - Constructing class 28 exemplar
+2025-06-05 19:58:48,860 - INFO - Constructing class 29 exemplar
+2025-06-05 19:58:49,859 - INFO - Updated prototype count: 28
+2025-06-05 19:58:59,069 - INFO - Epoch 6: ce loss: 0.334, con loss: 0.125, ptd loss: 0.955, rep loss: 0.145
+2025-06-05 19:58:59,070 - INFO - Stage 3, Epoch 6: Accuracy list: [0.946 1.    0.986 0.902 0.    0.926 0.945 0.794 0.794 0.802 0.98  0.93
+ 0.97  0.857 0.95  0.939 0.95  0.979 0.    0.832 0.742 0.99  0.918 0.143
+ 0.833 0.84  0.52  0.889 0.929 0.896]
+2025-06-05 19:58:59,070 - INFO - Stage 3, Epoch 6: Mean accuracy: 0.806
+2025-06-05 19:58:59,071 - INFO - Stage 3, Epoch 6: Top ten classes mean accuracy: 80.950
+2025-06-05 19:59:06,072 - INFO - Initial accuracy: 0.7716
+2025-06-05 19:59:06,634 - INFO - Updated accuracy: 76.69%
+2025-06-05 19:59:15,970 - INFO - Total mean accuracy: 82.056
+2025-06-05 19:59:18,017 - INFO - Epoch 7/30
+2025-06-05 19:59:24,817 - INFO - Initial accuracy: 0.7700
+2025-06-05 19:59:25,349 - INFO - Updated accuracy: 76.79%
+2025-06-05 19:59:59,905 - INFO - Epoch 7: ce loss: 0.367, con loss: 0.044, ptd loss: 0.951, rep loss: 0.407
+2025-06-05 19:59:59,906 - INFO - Stage 3, Epoch 7: Accuracy list: [0.957 1.    0.972 0.902 0.    0.904 0.945 0.794 0.804 0.802 0.98  0.93
+ 0.97  0.867 0.94  0.939 0.93  0.979 0.    0.832 0.742 0.99  0.908 0.184
+ 0.844 0.853 0.52  0.889 0.939 0.875]
+2025-06-05 19:59:59,906 - INFO - Stage 3, Epoch 7: Mean accuracy: 0.806
+2025-06-05 19:59:59,906 - INFO - Stage 3, Epoch 7: Top ten classes mean accuracy: 80.800
+2025-06-05 20:00:07,556 - INFO - Initial accuracy: 0.7695
+2025-06-05 20:00:08,045 - INFO - Updated accuracy: 76.85%
+2025-06-05 20:00:17,805 - INFO - Total mean accuracy: 82.092
+2025-06-05 20:00:19,911 - INFO - Epoch 8/30
+2025-06-05 20:00:27,003 - INFO - Initial accuracy: 0.7753
+2025-06-05 20:00:27,495 - INFO - Updated accuracy: 76.79%
+2025-06-05 20:01:03,854 - INFO - Epoch 8: ce loss: 0.045, con loss: 0.053, ptd loss: 0.947, rep loss: 0.207
+2025-06-05 20:01:03,855 - INFO - Stage 3, Epoch 8: Accuracy list: [0.946 0.988 0.986 0.89  0.    0.904 0.945 0.784 0.794 0.79  0.98  0.93
+ 0.97  0.837 0.95  0.949 0.94  0.979 0.    0.811 0.742 0.99  0.908 0.204
+ 0.844 0.853 0.52  0.889 0.939 0.854]
+2025-06-05 20:01:03,856 - INFO - Stage 3, Epoch 8: Mean accuracy: 0.804
+2025-06-05 20:01:03,856 - INFO - Stage 3, Epoch 8: Top ten classes mean accuracy: 80.270
+2025-06-05 20:01:11,365 - INFO - Initial accuracy: 0.7727
+2025-06-05 20:01:11,866 - INFO - Updated accuracy: 76.42%
+2025-06-05 20:01:22,052 - INFO - Total mean accuracy: 81.838
+2025-06-05 20:01:24,605 - INFO - Epoch 9/30
+2025-06-05 20:01:32,136 - INFO - Initial accuracy: 0.7753
+2025-06-05 20:01:32,645 - INFO - Updated accuracy: 76.79%
+2025-06-05 20:02:10,574 - INFO - Epoch 9: ce loss: 0.218, con loss: 0.054, ptd loss: 0.943, rep loss: 0.525
+2025-06-05 20:02:10,575 - INFO - Stage 3, Epoch 9: Accuracy list: [0.924 0.988 0.986 0.902 0.    0.926 0.945 0.773 0.804 0.802 0.98  0.94
+ 0.98  0.837 0.96  0.929 0.94  0.968 0.    0.811 0.742 0.99  0.898 0.204
+ 0.844 0.853 0.52  0.909 0.929 0.854]
+2025-06-05 20:02:10,575 - INFO - Stage 3, Epoch 9: Mean accuracy: 0.805
+2025-06-05 20:02:10,575 - INFO - Stage 3, Epoch 9: Top ten classes mean accuracy: 80.500
+2025-06-05 20:02:18,402 - INFO - Initial accuracy: 0.7711
+2025-06-05 20:02:18,945 - INFO - Updated accuracy: 77.00%
+2025-06-05 20:02:28,986 - INFO - Total mean accuracy: 81.911
+2025-06-05 20:02:31,112 - INFO - Epoch 10/30
+2025-06-05 20:02:38,409 - INFO - Initial accuracy: 0.7722
+2025-06-05 20:02:38,959 - INFO - Updated accuracy: 76.90%
+2025-06-05 20:03:14,580 - INFO - Epoch 10: ce loss: 0.157, con loss: 0.028, ptd loss: 0.938, rep loss: 0.334
+2025-06-05 20:03:14,581 - INFO - Stage 3, Epoch 10: Accuracy list: [0.957 1.    0.986 0.89  0.    0.915 0.945 0.794 0.763 0.79  0.98  0.94
+ 0.98  0.827 0.95  0.949 0.94  0.968 0.    0.8   0.753 0.99  0.929 0.184
+ 0.822 0.853 0.52  0.909 0.929 0.854]
+2025-06-05 20:03:14,581 - INFO - Stage 3, Epoch 10: Mean accuracy: 0.804
+2025-06-05 20:03:14,581 - INFO - Stage 3, Epoch 10: Top ten classes mean accuracy: 80.400
+2025-06-05 20:03:22,060 - INFO - Initial accuracy: 0.7711
+2025-06-05 20:03:22,570 - INFO - Updated accuracy: 76.48%
+2025-06-05 20:03:31,930 - INFO - Total mean accuracy: 81.838
+2025-06-05 20:03:34,998 - INFO - Epoch 11/30
+2025-06-05 20:03:42,439 - INFO - Initial accuracy: 0.7711
+2025-06-05 20:03:42,968 - INFO - Updated accuracy: 76.95%
+2025-06-05 20:04:08,389 - INFO - Historical prototype classes: [0, 1, 2, 3, 5, 6, 7, 8, 9, 13, 10, 11, 12, 14, 15, 16, 17, 19, 24, 20, 21, 22, 23, 25, 26, 27, 28, 29]
+2025-06-05 20:04:08,389 - INFO - Current prototype classes: [8, 13, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+2025-06-05 20:04:12,453 - INFO - Constructing class 21 exemplar
+2025-06-05 20:04:17,610 - INFO - Constructing class 25 exemplar
+2025-06-05 20:04:23,232 - INFO - Constructing class 28 exemplar
+2025-06-05 20:04:28,168 - INFO - Constructing class 29 exemplar
+2025-06-05 20:04:29,196 - INFO - Updated prototype count: 28
+2025-06-05 20:04:38,443 - INFO - Epoch 11: ce loss: 0.086, con loss: 0.090, ptd loss: 0.935, rep loss: 0.291
+2025-06-05 20:04:38,444 - INFO - Stage 3, Epoch 11: Accuracy list: [0.957 1.    0.986 0.915 0.    0.936 0.945 0.794 0.763 0.802 0.98  0.93
+ 0.97  0.837 0.94  0.929 0.94  0.968 0.    0.811 0.742 0.99  0.918 0.194
+ 0.811 0.853 0.52  0.919 0.929 0.854]
+2025-06-05 20:04:38,444 - INFO - Stage 3, Epoch 11: Mean accuracy: 0.804
+2025-06-05 20:04:38,444 - INFO - Stage 3, Epoch 11: Top ten classes mean accuracy: 80.980
+2025-06-05 20:04:45,661 - INFO - Initial accuracy: 0.7679
+2025-06-05 20:04:46,226 - INFO - Updated accuracy: 76.48%
+2025-06-05 20:04:55,749 - INFO - Total mean accuracy: 81.874
+2025-06-05 20:04:57,838 - INFO - Epoch 12/30
+2025-06-05 20:05:05,092 - INFO - Initial accuracy: 0.7685
+2025-06-05 20:05:05,627 - INFO - Updated accuracy: 76.48%
+2025-06-05 20:05:41,601 - INFO - Epoch 12: ce loss: 0.200, con loss: 0.054, ptd loss: 0.931, rep loss: 0.179
+2025-06-05 20:05:41,601 - INFO - Stage 3, Epoch 12: Accuracy list: [0.946 1.    0.986 0.89  0.    0.915 0.945 0.773 0.814 0.79  0.98  0.93
+ 0.97  0.847 0.94  0.939 0.93  0.968 0.    0.789 0.753 0.99  0.918 0.194
+ 0.811 0.853 0.52  0.919 0.929 0.854]
+2025-06-05 20:05:41,601 - INFO - Stage 3, Epoch 12: Mean accuracy: 0.803
+2025-06-05 20:05:41,601 - INFO - Stage 3, Epoch 12: Top ten classes mean accuracy: 80.590
+2025-06-05 20:05:49,579 - INFO - Initial accuracy: 0.7685
+2025-06-05 20:05:50,129 - INFO - Updated accuracy: 76.58%
+2025-06-05 20:06:00,547 - INFO - Total mean accuracy: 81.765
+2025-06-05 20:06:02,594 - INFO - Epoch 13/30
+2025-06-05 20:06:10,607 - INFO - Initial accuracy: 0.7648
+2025-06-05 20:06:11,148 - INFO - Updated accuracy: 76.05%
+2025-06-05 20:06:48,360 - INFO - Epoch 13: ce loss: 0.156, con loss: 0.029, ptd loss: 0.927, rep loss: 0.181
+2025-06-05 20:06:48,361 - INFO - Stage 3, Epoch 13: Accuracy list: [0.946 1.    0.986 0.902 0.    0.915 0.945 0.773 0.804 0.778 0.98  0.93
+ 0.95  0.827 0.96  0.939 0.94  0.968 0.    0.779 0.753 0.99  0.918 0.184
+ 0.8   0.853 0.52  0.919 0.929 0.854]
+2025-06-05 20:06:48,361 - INFO - Stage 3, Epoch 13: Mean accuracy: 0.801
+2025-06-05 20:06:48,361 - INFO - Stage 3, Epoch 13: Top ten classes mean accuracy: 80.490
+2025-06-05 20:06:56,075 - INFO - Initial accuracy: 0.7664
+2025-06-05 20:06:56,622 - INFO - Updated accuracy: 76.37%
+2025-06-05 20:07:06,825 - INFO - Total mean accuracy: 81.584
+2025-06-05 20:07:09,914 - INFO - Epoch 14/30
+2025-06-05 20:07:17,488 - INFO - Initial accuracy: 0.7669
+2025-06-05 20:07:18,003 - INFO - Updated accuracy: 76.37%
+2025-06-05 20:07:54,691 - INFO - Epoch 14: ce loss: 0.047, con loss: 0.074, ptd loss: 0.924, rep loss: 0.336
+2025-06-05 20:07:54,692 - INFO - Stage 3, Epoch 14: Accuracy list: [0.946 1.    0.986 0.902 0.    0.926 0.945 0.763 0.814 0.79  0.98  0.93
+ 0.94  0.837 0.96  0.919 0.93  0.968 0.    0.779 0.753 0.99  0.898 0.153
+ 0.8   0.853 0.52  0.919 0.929 0.854]
+2025-06-05 20:07:54,692 - INFO - Stage 3, Epoch 14: Mean accuracy: 0.799
+2025-06-05 20:07:54,692 - INFO - Stage 3, Epoch 14: Top ten classes mean accuracy: 80.720
+2025-06-05 20:08:02,586 - INFO - Initial accuracy: 0.7669
+2025-06-05 20:08:03,152 - INFO - Updated accuracy: 76.27%
+2025-06-05 20:08:13,312 - INFO - Total mean accuracy: 81.366
+2025-06-05 20:08:15,543 - INFO - Epoch 15/30
+2025-06-05 20:08:22,692 - INFO - Initial accuracy: 0.7653
+2025-06-05 20:08:23,289 - INFO - Updated accuracy: 76.53%
+2025-06-05 20:08:59,158 - INFO - Epoch 15: ce loss: 0.075, con loss: 0.119, ptd loss: 0.920, rep loss: 0.239
+2025-06-05 20:08:59,159 - INFO - Stage 3, Epoch 15: Accuracy list: [0.957 1.    0.986 0.902 0.    0.915 0.945 0.784 0.784 0.802 0.98  0.93
+ 0.97  0.847 0.96  0.929 0.94  0.968 0.    0.789 0.753 0.99  0.929 0.153
+ 0.8   0.853 0.52  0.919 0.929 0.844]
+2025-06-05 20:08:59,159 - INFO - Stage 3, Epoch 15: Mean accuracy: 0.803
+2025-06-05 20:08:59,159 - INFO - Stage 3, Epoch 15: Top ten classes mean accuracy: 80.750
+2025-06-05 20:09:06,476 - INFO - Initial accuracy: 0.7674
+2025-06-05 20:09:07,012 - INFO - Updated accuracy: 76.64%
+2025-06-05 20:09:17,123 - INFO - Total mean accuracy: 81.693
+2025-06-05 20:09:19,284 - INFO - Epoch 16/30
+2025-06-05 20:09:26,810 - INFO - Initial accuracy: 0.7642
+2025-06-05 20:09:27,432 - INFO - Updated accuracy: 76.42%
+2025-06-05 20:10:02,922 - INFO - Epoch 16: ce loss: 0.039, con loss: 0.064, ptd loss: 0.917, rep loss: 0.136
+2025-06-05 20:10:02,923 - INFO - Stage 3, Epoch 16: Accuracy list: [0.957 1.    0.986 0.915 0.    0.915 0.945 0.773 0.773 0.802 0.98  0.92
+ 0.95  0.827 0.96  0.929 0.94  0.968 0.    0.789 0.753 0.99  0.939 0.143
+ 0.8   0.853 0.52  0.919 0.929 0.844]
+2025-06-05 20:10:02,923 - INFO - Stage 3, Epoch 16: Mean accuracy: 0.801
+2025-06-05 20:10:02,923 - INFO - Stage 3, Epoch 16: Top ten classes mean accuracy: 80.660
+2025-06-05 20:10:10,574 - INFO - Initial accuracy: 0.7664
+2025-06-05 20:10:11,165 - INFO - Updated accuracy: 76.05%
+2025-06-05 20:10:20,571 - INFO - Total mean accuracy: 81.475
+2025-06-05 20:10:23,034 - INFO - Epoch 17/30
+2025-06-05 20:10:30,900 - INFO - Initial accuracy: 0.7653
+2025-06-05 20:10:31,470 - INFO - Updated accuracy: 76.42%
+2025-06-05 20:11:06,992 - INFO - Epoch 17: ce loss: 0.043, con loss: 0.166, ptd loss: 0.913, rep loss: 0.215
+2025-06-05 20:11:06,993 - INFO - Stage 3, Epoch 17: Accuracy list: [0.967 1.    0.986 0.915 0.    0.915 0.934 0.773 0.804 0.802 0.98  0.93
+ 0.95  0.806 0.95  0.939 0.94  0.968 0.    0.8   0.753 0.98  0.939 0.143
+ 0.8   0.853 0.52  0.919 0.929 0.844]
+2025-06-05 20:11:06,993 - INFO - Stage 3, Epoch 17: Mean accuracy: 0.801
+2025-06-05 20:11:06,993 - INFO - Stage 3, Epoch 17: Top ten classes mean accuracy: 80.960
+2025-06-05 20:11:14,547 - INFO - Initial accuracy: 0.7658
+2025-06-05 20:11:15,075 - INFO - Updated accuracy: 76.64%
+2025-06-05 20:11:24,225 - INFO - Total mean accuracy: 81.547
+2025-06-05 20:11:26,199 - INFO - Epoch 18/30
+2025-06-05 20:11:33,427 - INFO - Initial accuracy: 0.7637
+2025-06-05 20:11:34,020 - INFO - Updated accuracy: 76.21%
+2025-06-05 20:12:08,968 - INFO - Epoch 18: ce loss: 0.012, con loss: 0.082, ptd loss: 0.910, rep loss: 0.212
+2025-06-05 20:12:08,969 - INFO - Stage 3, Epoch 18: Accuracy list: [0.957 1.    0.986 0.902 0.    0.915 0.934 0.763 0.814 0.802 0.98  0.92
+ 0.94  0.816 0.95  0.949 0.94  0.968 0.    0.789 0.753 0.98  0.939 0.143
+ 0.8   0.853 0.52  0.919 0.929 0.833]
+2025-06-05 20:12:08,969 - INFO - Stage 3, Epoch 18: Mean accuracy: 0.800
+2025-06-05 20:12:08,969 - INFO - Stage 3, Epoch 18: Top ten classes mean accuracy: 80.730
+2025-06-05 20:12:16,075 - INFO - Initial accuracy: 0.7627
+2025-06-05 20:12:16,641 - INFO - Updated accuracy: 76.16%
+2025-06-05 20:12:25,908 - INFO - Total mean accuracy: 81.402
+2025-06-05 20:12:28,158 - INFO - Epoch 19/30
+2025-06-05 20:12:35,421 - INFO - Initial accuracy: 0.7600
+2025-06-05 20:12:35,966 - INFO - Updated accuracy: 76.42%
+2025-06-05 20:13:10,797 - INFO - Epoch 19: ce loss: 0.093, con loss: 0.064, ptd loss: 0.907, rep loss: 0.250
+2025-06-05 20:13:10,798 - INFO - Stage 3, Epoch 19: Accuracy list: [0.957 1.    0.986 0.915 0.    0.915 0.945 0.773 0.804 0.802 0.98  0.93
+ 0.95  0.827 0.94  0.939 0.94  0.968 0.    0.789 0.753 0.98  0.939 0.163
+ 0.8   0.853 0.52  0.919 0.919 0.844]
+2025-06-05 20:13:10,798 - INFO - Stage 3, Epoch 19: Mean accuracy: 0.802
+2025-06-05 20:13:10,798 - INFO - Stage 3, Epoch 19: Top ten classes mean accuracy: 80.970
+2025-06-05 20:13:17,958 - INFO - Initial accuracy: 0.7621
+2025-06-05 20:13:18,483 - INFO - Updated accuracy: 76.21%
+2025-06-05 20:13:27,827 - INFO - Total mean accuracy: 81.584
+2025-06-05 20:13:29,807 - INFO - Epoch 20/30
+2025-06-05 20:13:36,900 - INFO - Initial accuracy: 0.7621
+2025-06-05 20:13:37,425 - INFO - Updated accuracy: 76.21%
+2025-06-05 20:14:12,499 - INFO - Epoch 20: ce loss: 0.034, con loss: 0.062, ptd loss: 0.904, rep loss: 0.183
+2025-06-05 20:14:12,500 - INFO - Stage 3, Epoch 20: Accuracy list: [0.957 1.    0.986 0.915 0.    0.915 0.945 0.784 0.794 0.802 0.98  0.93
+ 0.94  0.827 0.94  0.949 0.94  0.968 0.    0.779 0.753 0.98  0.929 0.173
+ 0.8   0.853 0.52  0.919 0.919 0.844]
+2025-06-05 20:14:12,500 - INFO - Stage 3, Epoch 20: Mean accuracy: 0.801
+2025-06-05 20:14:12,500 - INFO - Stage 3, Epoch 20: Top ten classes mean accuracy: 80.980
+2025-06-05 20:14:19,724 - INFO - Initial accuracy: 0.7616
+2025-06-05 20:14:20,285 - INFO - Updated accuracy: 76.16%
+2025-06-05 20:14:29,960 - INFO - Total mean accuracy: 81.547
+2025-06-05 20:14:32,421 - INFO - Epoch 21/30
+2025-06-05 20:14:39,983 - INFO - Initial accuracy: 0.7595
+2025-06-05 20:14:40,534 - INFO - Updated accuracy: 75.53%
+2025-06-05 20:15:05,795 - INFO - Historical prototype classes: [0, 1, 2, 3, 5, 6, 7, 8, 9, 13, 10, 11, 12, 14, 15, 16, 17, 19, 24, 20, 21, 22, 23, 25, 26, 27, 28, 29]
+2025-06-05 20:15:05,796 - INFO - Current prototype classes: [8, 13, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+2025-06-05 20:15:09,976 - INFO - Constructing class 25 exemplar
+2025-06-05 20:15:15,614 - INFO - Constructing class 28 exemplar
+2025-06-05 20:15:21,246 - INFO - Constructing class 29 exemplar
+2025-06-05 20:15:22,332 - INFO - Updated prototype count: 28
+2025-06-05 20:15:31,876 - INFO - Epoch 21: ce loss: 0.040, con loss: 0.020, ptd loss: 0.900, rep loss: 0.289
+2025-06-05 20:15:31,876 - INFO - Stage 3, Epoch 21: Accuracy list: [0.967 1.    0.986 0.915 0.    0.915 0.945 0.773 0.784 0.802 0.97  0.92
+ 0.95  0.827 0.94  0.929 0.94  0.968 0.    0.8   0.753 0.98  0.918 0.153
+ 0.8   0.853 0.52  0.919 0.929 0.844]
+2025-06-05 20:15:31,877 - INFO - Stage 3, Epoch 21: Mean accuracy: 0.800
+2025-06-05 20:15:31,877 - INFO - Stage 3, Epoch 21: Top ten classes mean accuracy: 80.870
+2025-06-05 20:15:39,012 - INFO - Initial accuracy: 0.7590
+2025-06-05 20:15:39,592 - INFO - Updated accuracy: 75.47%
+2025-06-05 20:15:48,867 - INFO - Total mean accuracy: 81.402
+2025-06-05 20:15:51,124 - INFO - Epoch 22/30
+2025-06-05 20:15:58,429 - INFO - Initial accuracy: 0.7600
+2025-06-05 20:15:59,011 - INFO - Updated accuracy: 76.11%
+2025-06-05 20:16:33,525 - INFO - Epoch 22: ce loss: 0.117, con loss: 0.105, ptd loss: 0.897, rep loss: 0.385
+2025-06-05 20:16:33,526 - INFO - Stage 3, Epoch 22: Accuracy list: [0.967 1.    0.986 0.915 0.    0.915 0.934 0.784 0.763 0.802 0.98  0.92
+ 0.95  0.806 0.94  0.949 0.94  0.968 0.    0.8   0.753 0.98  0.918 0.153
+ 0.811 0.853 0.52  0.919 0.919 0.844]
+2025-06-05 20:16:33,526 - INFO - Stage 3, Epoch 22: Mean accuracy: 0.800
+2025-06-05 20:16:33,526 - INFO - Stage 3, Epoch 22: Top ten classes mean accuracy: 80.660
+2025-06-05 20:16:40,989 - INFO - Initial accuracy: 0.7621
+2025-06-05 20:16:41,576 - INFO - Updated accuracy: 76.11%
+2025-06-05 20:16:51,174 - INFO - Total mean accuracy: 81.366
+2025-06-05 20:16:53,261 - INFO - Epoch 23/30
+2025-06-05 20:17:00,823 - INFO - Initial accuracy: 0.7642
+2025-06-05 20:17:01,375 - INFO - Updated accuracy: 76.42%
+2025-06-05 20:17:35,856 - INFO - Epoch 23: ce loss: 0.168, con loss: 0.071, ptd loss: 0.894, rep loss: 0.312
+2025-06-05 20:17:35,857 - INFO - Stage 3, Epoch 23: Accuracy list: [0.957 1.    0.986 0.915 0.    0.915 0.945 0.763 0.773 0.802 0.97  0.93
+ 0.94  0.806 0.93  0.939 0.94  0.968 0.    0.779 0.753 0.98  0.908 0.153
+ 0.811 0.853 0.52  0.919 0.929 0.844]
+2025-06-05 20:17:35,857 - INFO - Stage 3, Epoch 23: Mean accuracy: 0.798
+2025-06-05 20:17:35,857 - INFO - Stage 3, Epoch 23: Top ten classes mean accuracy: 80.560
+2025-06-05 20:17:43,444 - INFO - Initial accuracy: 0.7627
+2025-06-05 20:17:44,007 - INFO - Updated accuracy: 75.95%
+2025-06-05 20:17:53,458 - INFO - Total mean accuracy: 81.148
+2025-06-05 20:17:56,212 - INFO - Epoch 24/30
+2025-06-05 20:18:03,719 - INFO - Initial accuracy: 0.7616
+2025-06-05 20:18:04,304 - INFO - Updated accuracy: 76.05%
+2025-06-05 20:18:39,612 - INFO - Epoch 24: ce loss: 0.042, con loss: 0.037, ptd loss: 0.891, rep loss: 0.278
+2025-06-05 20:18:39,614 - INFO - Stage 3, Epoch 24: Accuracy list: [0.957 1.    0.986 0.915 0.    0.915 0.945 0.784 0.763 0.802 0.98  0.93
+ 0.95  0.827 0.95  0.929 0.94  0.968 0.    0.779 0.753 0.98  0.908 0.143
+ 0.811 0.853 0.52  0.919 0.919 0.844]
+2025-06-05 20:18:39,614 - INFO - Stage 3, Epoch 24: Mean accuracy: 0.799
+2025-06-05 20:18:39,614 - INFO - Stage 3, Epoch 24: Top ten classes mean accuracy: 80.670
+2025-06-05 20:18:47,217 - INFO - Initial accuracy: 0.7600
+2025-06-05 20:18:47,764 - INFO - Updated accuracy: 76.05%
+2025-06-05 20:18:57,391 - INFO - Total mean accuracy: 81.293
+2025-06-05 20:18:59,433 - INFO - Epoch 25/30
+2025-06-05 20:19:06,517 - INFO - Initial accuracy: 0.7616
+2025-06-05 20:19:07,090 - INFO - Updated accuracy: 75.90%
+2025-06-05 20:19:42,253 - INFO - Epoch 25: ce loss: 0.041, con loss: 0.073, ptd loss: 0.889, rep loss: 0.290
+2025-06-05 20:19:42,255 - INFO - Stage 3, Epoch 25: Accuracy list: [0.946 1.    0.986 0.915 0.    0.915 0.945 0.763 0.763 0.802 0.97  0.94
+ 0.95  0.827 0.96  0.949 0.93  0.968 0.    0.789 0.753 0.98  0.908 0.153
+ 0.8   0.853 0.52  0.919 0.919 0.844]
+2025-06-05 20:19:42,255 - INFO - Stage 3, Epoch 25: Mean accuracy: 0.799
+2025-06-05 20:19:42,255 - INFO - Stage 3, Epoch 25: Top ten classes mean accuracy: 80.350
+2025-06-05 20:19:50,040 - INFO - Initial accuracy: 0.7605
+2025-06-05 20:19:50,603 - INFO - Updated accuracy: 75.90%
+2025-06-05 20:20:00,384 - INFO - Total mean accuracy: 81.293
+2025-06-05 20:20:02,956 - INFO - Epoch 26/30
+2025-06-05 20:20:10,367 - INFO - Initial accuracy: 0.7611
+2025-06-05 20:20:10,915 - INFO - Updated accuracy: 76.32%
+2025-06-05 20:20:46,095 - INFO - Epoch 26: ce loss: 0.078, con loss: 0.032, ptd loss: 0.886, rep loss: 0.186
+2025-06-05 20:20:46,096 - INFO - Stage 3, Epoch 26: Accuracy list: [0.946 1.    0.986 0.915 0.    0.915 0.945 0.763 0.763 0.802 0.949 0.94
+ 0.95  0.816 0.94  0.949 0.93  0.968 0.    0.779 0.753 0.98  0.908 0.143
+ 0.8   0.853 0.52  0.919 0.919 0.844]
+2025-06-05 20:20:46,096 - INFO - Stage 3, Epoch 26: Mean accuracy: 0.797
+2025-06-05 20:20:46,096 - INFO - Stage 3, Epoch 26: Top ten classes mean accuracy: 80.350
+2025-06-05 20:20:53,344 - INFO - Initial accuracy: 0.7579
+2025-06-05 20:20:53,924 - INFO - Updated accuracy: 75.84%
+2025-06-05 20:21:03,209 - INFO - Total mean accuracy: 81.039
+2025-06-05 20:21:06,297 - INFO - Epoch 27/30
+2025-06-05 20:21:13,841 - INFO - Initial accuracy: 0.7616
+2025-06-05 20:21:14,388 - INFO - Updated accuracy: 76.05%
+2025-06-05 20:21:49,219 - INFO - Epoch 27: ce loss: 0.024, con loss: 0.037, ptd loss: 0.883, rep loss: 0.460
+2025-06-05 20:21:49,220 - INFO - Stage 3, Epoch 27: Accuracy list: [0.967 1.    0.986 0.915 0.    0.915 0.945 0.784 0.753 0.802 0.949 0.94
+ 0.97  0.816 0.96  0.949 0.93  0.968 0.    0.789 0.753 0.98  0.898 0.153
+ 0.8   0.853 0.52  0.919 0.919 0.844]
+2025-06-05 20:21:49,220 - INFO - Stage 3, Epoch 27: Mean accuracy: 0.799
+2025-06-05 20:21:49,220 - INFO - Stage 3, Epoch 27: Top ten classes mean accuracy: 80.670
+2025-06-05 20:21:57,002 - INFO - Initial accuracy: 0.7595
+2025-06-05 20:21:57,586 - INFO - Updated accuracy: 75.90%
+2025-06-05 20:22:06,965 - INFO - Total mean accuracy: 81.329
+2025-06-05 20:22:09,279 - INFO - Epoch 28/30
+2025-06-05 20:22:16,334 - INFO - Initial accuracy: 0.7621
+2025-06-05 20:22:16,892 - INFO - Updated accuracy: 76.05%
+2025-06-05 20:22:51,706 - INFO - Epoch 28: ce loss: 0.022, con loss: 0.049, ptd loss: 0.880, rep loss: 0.365
+2025-06-05 20:22:51,707 - INFO - Stage 3, Epoch 28: Accuracy list: [0.957 1.    0.986 0.915 0.    0.915 0.945 0.773 0.773 0.802 0.949 0.93
+ 0.94  0.827 0.95  0.939 0.93  0.968 0.    0.789 0.753 0.98  0.898 0.143
+ 0.8   0.853 0.52  0.919 0.929 0.844]
+2025-06-05 20:22:51,707 - INFO - Stage 3, Epoch 28: Mean accuracy: 0.798
+2025-06-05 20:22:51,707 - INFO - Stage 3, Epoch 28: Top ten classes mean accuracy: 80.660
+2025-06-05 20:22:59,027 - INFO - Initial accuracy: 0.7605
+2025-06-05 20:22:59,575 - INFO - Updated accuracy: 76.00%
+2025-06-05 20:23:08,937 - INFO - Total mean accuracy: 81.148
+2025-06-05 20:23:11,153 - INFO - Epoch 29/30
+2025-06-05 20:23:18,468 - INFO - Initial accuracy: 0.7616
+2025-06-05 20:23:19,019 - INFO - Updated accuracy: 76.00%
+2025-06-05 20:23:53,982 - INFO - Epoch 29: ce loss: 0.020, con loss: 0.023, ptd loss: 0.878, rep loss: 0.337
+2025-06-05 20:23:53,983 - INFO - Stage 3, Epoch 29: Accuracy list: [0.967 1.    0.986 0.915 0.    0.915 0.945 0.773 0.763 0.802 0.96  0.93
+ 0.94  0.806 0.95  0.939 0.93  0.968 0.    0.789 0.753 0.98  0.898 0.143
+ 0.8   0.853 0.52  0.919 0.919 0.844]
+2025-06-05 20:23:53,983 - INFO - Stage 3, Epoch 29: Mean accuracy: 0.797
+2025-06-05 20:23:53,983 - INFO - Stage 3, Epoch 29: Top ten classes mean accuracy: 80.660
+2025-06-05 20:24:01,328 - INFO - Initial accuracy: 0.7605
+2025-06-05 20:24:01,897 - INFO - Updated accuracy: 76.00%
+2025-06-05 20:24:11,644 - INFO - Total mean accuracy: 81.075
+2025-06-05 20:24:13,848 - INFO - Epoch 30/30
+2025-06-05 20:24:21,368 - INFO - Initial accuracy: 0.7616
+2025-06-05 20:24:21,922 - INFO - Updated accuracy: 76.16%
+2025-06-05 20:24:56,651 - INFO - Epoch 30: ce loss: 0.054, con loss: 0.062, ptd loss: 0.875, rep loss: 0.226
+2025-06-05 20:24:56,651 - INFO - Stage 3, Epoch 30: Accuracy list: [0.967 1.    0.986 0.915 0.    0.915 0.945 0.773 0.763 0.802 0.97  0.94
+ 0.97  0.806 0.95  0.949 0.93  0.968 0.    0.789 0.753 0.98  0.898 0.143
+ 0.8   0.853 0.52  0.919 0.919 0.844]
+2025-06-05 20:24:56,651 - INFO - Stage 3, Epoch 30: Mean accuracy: 0.799
+2025-06-05 20:24:56,651 - INFO - Stage 3, Epoch 30: Top ten classes mean accuracy: 80.660
+2025-06-05 20:25:04,061 - INFO - Initial accuracy: 0.7616
+2025-06-05 20:25:04,614 - INFO - Updated accuracy: 76.05%
+2025-06-05 20:25:13,929 - INFO - Total mean accuracy: 81.293
+2025-06-05 20:25:25,756 - INFO - Stage 3 completed. Best accuracy: 82.092
+2025-06-05 20:25:25,756 - INFO - From dslr to amazon, best accuracy of different stages:
+2025-06-05 20:25:25,757 - INFO - [90.413 85.817 82.092]
+2025-06-05 20:25:25,757 - INFO - From dslr to amazon, last accuracy of different stages:
+2025-06-05 20:25:25,757 - INFO - [90.049 85.485 81.293]
+2025-06-05 20:25:25,757 - INFO - From dslr to amazon, top_ten accuracy of different stages:
+2025-06-05 20:25:25,757 - INFO - [84.76 80.26 80.66]
+2025-06-05 20:25:25,757 - INFO - Training completed!
