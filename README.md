@@ -51,10 +51,12 @@ We would like to thank the authors of previous related projects for generously s
 ## 🤝 Citation
 If you find our work useful, please consider giving a citation 📝 :)
 ```bibtex
-@article{deng2024multi,
-  title={Multi-Granularity Class Prototype Topology Distillation for Class-Incremental Source-Free Unsupervised Domain Adaptation},
-  author={Deng, Peihua and Zhang, Jiehua and Sheng, Xichun and Yan, Chenggang and Sun, Yaoqi and Fu, Ying and Li, Liang},
-  journal={arXiv preprint arXiv:2411.16064},
-  year={2024}
+@InProceedings{Deng_2025_CVPR,
+    author    = {Deng, Peihua and Zhang, Jiehua and Sheng, Xichun and Yan, Chenggang and Sun, Yaoqi and Fu, Ying and Li, Liang},
+    title     = {Multi-Granularity Class Prototype Topology Distillation for Class-Incremental Source-Free Unsupervised Domain Adaptation},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {30566-30576}
 }
 ```
