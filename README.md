@@ -3,8 +3,9 @@
 <blockquote>
 This paper explores the Class-Incremental Source-Free Unsupervised Domain Adaptation (CI-SFUDA) problem, where the unlabeled target data come incrementally without access to labeled source instances. This problem poses two challenges, the interference of similar source-class knowledge in target-class representation learning and the shocks of new target knowledge to old ones. To address them, we propose the Multi-Granularity Class Prototype Topology Distillation (GROTO) algorithm, which effectively transfers the source knowledge to the class-incremental target domain. Concretely, we design the multi-granularity class prototype self-organization module and the prototype topology distillation module. First, we mine the positive classes by modeling accumulation distributions. Next, we introduce multi-granularity class prototypes to generate reliable pseudo-labels, and exploit them to promote the positive-class target feature self-organization. Second, the positive-class prototypes are leveraged to construct the topological structures of source and target feature spaces. Then, we perform the topology distillation to continually mitigate the shocks of new target knowledge to old ones. Extensive experiments demonstrate that our proposed method achieves state-of-the-art performance on three public datasets.
 </blockquote>
-[![arXiv](https://arxiv.org/abs/2411.16064)  
-![1748399243391](https://github.com/user-attachments/assets/6f019bcc-2f37-4826-a967-2525b2cb8f63)
+![arXiv](https://arxiv.org/abs/2411.16064)  
+![1749888024520](https://github.com/user-attachments/assets/1fec9d2d-05ac-4539-87a8-90ade082c7ca)
+
 
 ## 🔧 Installation
 - Clone this repository:
