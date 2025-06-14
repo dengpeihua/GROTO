@@ -2,7 +2,7 @@
 
 # Multi-Granularity Class Prototype Topology Distillation for Class-Incremental Source-Free Unsupervised Domain Adaptation
 
-[![arXiv](https://img.shields.io/badge/arxiv-2412.18219-b31b1b?logo=arxiv&logoColor=white&labelColor=555)](https://arxiv.org/abs/2412.18219)
+[![arXiv](https://img.shields.io/badge/arxiv-2411.16064-b31b1b?logo=arxiv&logoColor=white&labelColor=555)](https://arxiv.org/abs/2411.16064)
 [![CVPR2025](https://img.shields.io/badge/CVPR2025-Paper-blue?logo=read-the-docs&logoColor=white)](https://openaccess.thecvf.com/content/CVPR2025/html/Deng_Multi-Granularity_Class_Prototype_Topology_Distillation_for_Class-Incremental_Source-Free_Unsupervised_Domain_CVPR_2025_paper.html)
 
 </div>
