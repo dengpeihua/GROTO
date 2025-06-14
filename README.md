@@ -13,7 +13,7 @@ cd GROTO
 conda env create -f environment.yml
 ```
 
-## 📚 Data Preparation
+## 📊 Data Preparation
 The files of data list and their corresponding labels have been put in the directory `./data_splits`, and the `imagenet_list.txt` can be downloaded at [GoogleDrive](https://drive.google.com/drive/folders/1MGFO41tVIsG1ckQmh0t3q9kJjmnXM2i2?usp=sharing).
 
 Please manually download the office31, office-home and ImageNet-Caltech benchmarks from the [link](https://github.com/jindongwang/transferlearning/tree/master/data), [link](http://www.vision.caltech.edu/Image_Datasets/Caltech256) and [link](https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_train.tar), then put them into the corresponding directory (e.g., './dataset/office-home').
@@ -43,7 +43,10 @@ python source_train_imagenet1k.py --gpu 0
 ```
 
 ## ➡️ Class-Incremental Source-Free Unsupervised Domain Adaptation
-Run the `.sh` scripts to obtain the results of different datasets.
+Run `.sh` scripts in the sh folder to obtain the results of different datasets.
+
+## 💡 Checkpoints & Log
+We provide all source domain pre-trained models of three datasets, as well as the checkpoints and logs after class-incremental source-free unsupervised domain adaptation at [GoogleDrive](https://drive.google.com/drive/folders/1MGFO41tVIsG1ckQmh0t3q9kJjmnXM2i2).
 
 ## 🙏 Acknowledgments
 We would like to thank the authors of previous related projects for generously sharing their code and insights: [ViT](https://github.com/lukemelas/PyTorch-Pretrained-ViT), [PCT](https://github.com/korawat-tanwisuth/Proto_DA) and [ProCA](https://github.com/Hongbin98/ProCA).
