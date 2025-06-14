@@ -45,7 +45,7 @@ python source_train_imagenet1k.py --gpu 0
 ## ➡️ Class-Incremental Source-Free Unsupervised Domain Adaptation
 Run `.sh` scripts in the sh folder to obtain the results of different datasets.
 
-## 💡 Checkpoints & Log
+## 💡 Checkpoints & Logs
 We provide all source domain pre-trained models of three datasets, as well as the checkpoints and logs after class-incremental source-free unsupervised domain adaptation at [GoogleDrive](https://drive.google.com/drive/folders/1MGFO41tVIsG1ckQmh0t3q9kJjmnXM2i2).
 
 ## 🙏 Acknowledgments
