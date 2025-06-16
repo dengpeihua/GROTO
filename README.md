@@ -27,7 +27,7 @@ conda env create -f environment.yml
 ## 📊 Data Preparation
 The files of data list and their corresponding labels have been put in the directory `./data_splits`, and the `imagenet_list.txt` can be downloaded at [GoogleDrive](https://drive.google.com/drive/folders/1MGFO41tVIsG1ckQmh0t3q9kJjmnXM2i2?usp=sharing).
 
-Please manually download the office31, office-home and ImageNet-Caltech benchmarks from the [link](https://github.com/jindongwang/transferlearning/tree/master/data), [link](http://www.vision.caltech.edu/Image_Datasets/Caltech256) and [link](https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_train.tar), then put them into the corresponding directory (e.g., './dataset/office-home').
+Please manually download the office31, office-home and ImageNet-Caltech benchmarks from [here](https://github.com/jindongwang/transferlearning/tree/master/data), [here](http://www.vision.caltech.edu/Image_Datasets/Caltech256) and [here](https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_train.tar), then put them into the corresponding directory (e.g., './dataset/office-home').
 
 Put the corresponding file in your path (e.g., './dataset/office-home/Art.txt')
 
