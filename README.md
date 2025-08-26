@@ -60,7 +60,7 @@ Run `.sh` scripts in the sh folder to obtain the results of different datasets.
 We provide all source domain pre-trained models of three datasets, as well as the checkpoints and logs after class-incremental source-free unsupervised domain adaptation at [GoogleDrive](https://drive.google.com/drive/folders/1MGFO41tVIsG1ckQmh0t3q9kJjmnXM2i2).
 
 ## 🙏 Acknowledgments
-We would like to thank the authors of previous related projects for generously sharing their code and insights: [ViT](https://github.com/lukemelas/PyTorch-Pretrained-ViT), [PCT](https://github.com/korawat-tanwisuth/Proto_DA) and [ProCA](https://github.com/Hongbin98/ProCA).
+We would like to thank the authors of previous related projects for generously sharing their code and insights: [ViT](https://github.com/lukemelas/PyTorch-Pretrained-ViT), and [ProCA](https://github.com/Hongbin98/ProCA).
 
 ## 🤝 Citation
 If you find our work useful, please consider giving a citation 📝 :)
